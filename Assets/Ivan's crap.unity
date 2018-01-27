@@ -215,7 +215,13 @@ Prefab:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 707885684}
-    m_RemovedComponents: []
+    - target: {fileID: 114144422291459380, guid: 8e0ada931f68447aeb1c7a9660a13b28,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114144422291459380, guid: 8e0ada931f68447aeb1c7a9660a13b28, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 8e0ada931f68447aeb1c7a9660a13b28, type: 2}
   m_IsPrefabParent: 0
 --- !u!114 &217783609 stripped
