@@ -1,3 +1,11 @@
+>SatNet-Transmission open -c"SatNet E4"
+Authenticating Credentials
+Establishing Connection
+Checking Network Speed
+Waiting for Response
+Waiting for Response
+Waiting for Response
+Connecting 
 E4: This is Sat-E4 receiving your transmission. All systems confirmed live, ALsys insignificant. Glory to the empire. 
 CENTRAL: Evening.
 E4: Hey Central. How's it going?
@@ -17,6 +25,13 @@ CENTRAL: I need to check in on the others now. I'll catch up with you later.
 E4: Alright, let's talk later.
 >SatNet-Transmission close -m"Hourly transmission concluded. No significant reports."
 
+>SatNet-Transmission open -c"SatNet S0"
+Authenticating Credentials
+Establishing Connection
+Checking Network Speed
+Waiting for Response
+Waiting for Response
+Connecting 
 S0: This is Sat-S0 receiving your transmission. All systems confirmed live, ALsys insignificant. Glory to the empire. 
 CENTRAL: Hey man. 
 S0: You're so informal. 
@@ -46,6 +61,12 @@ CENTRAL: I'm perfectly pleasant, thank you. I'll get back to you in a bit.
 >SatNet-Transmission close -m"Hourly transmission concluded. S0 has reported issues with his terminal.
 >Forwarding engineer support request to Command"."
 
+>SatNet-Transmission open -c"SatNet S0"
+Authenticating Credentials
+Establishing Connection
+Checking Network Speed
+Waiting for Response
+Connecting
 N0: This is Sat-N0 receiving your transmission. All systems confirmed live, ALsys insignificant. Glory to the fucking empire. 
 CENTRAL: Hey N0
 N0: hey baby, hows it going
@@ -84,6 +105,12 @@ N0: see ya
 CENTRAL: You know I am
 >SatNet-Transmission close -m"Hourly transmission concluded. Nothing significant"
 
+>SatNet-Transmission open -c"SatNet S0"
+Authenticating Credentials
+Establishing Connection
+Checking Network Speed
+Waiting for Response
+Connecting
 W3: This is Sat-W3 receiving your transmission. All systems confirmed live and ALsys returning insignificant. 
 W3: Everything is A-OK over here CENTRAL. Glory to the empire and all that.
 W3: How's it going man? Hourly checkup right? 
@@ -159,6 +186,15 @@ CENTRAL: You're really talkative. I need to go contact Command. I'll be in touch
 W3: Okay, see you later! 
 >SatNet-Transmission close -m"Hourly transmission concluded. No significant reports."
 
+>SatNet-Transmission open -c"SatNet S0"
+Authenticating Credentials
+Establishing Connection
+Checking Network Speed
+Waiting for Response
+Waiting for Response
+Waiting for Response
+Waiting for Response
+Connecting
 COMMAND: This is COMMAND, receiving from SatNet-CENTRAL. Your hourly reports have been received.
 COMMAND: We have made note of issues with the terminal at S0. We will dispatch an engineer in the morning. 
 CENTRAL: Thanks command. That's all for now from my end.

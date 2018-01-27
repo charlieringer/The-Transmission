@@ -59,14 +59,15 @@ public class CallInput : MonoBehaviour {
 		}
 			
 		if (currentChar >= callStrings [currentLine].Length) {
-			textModel += '\n';
-			currentLine++;
+			if (Input.GetKeyDown ("return") && magiTypeOn || !magiTypeOn) {
+				textModel += '\n';
+				currentLine++;
 
-			if (currentLine < callStrings.Length) 
-			{
-				string identifier = initNewLine ();
-				magiTypeOn = (identifier.Contains ("CENTRAL")||identifier=="");
-				textModel += identifier;
+				if (currentLine < callStrings.Length) {
+					string identifier = initNewLine ();
+					magiTypeOn = (identifier.Contains ("CENTRAL") || identifier == "");
+					textModel += identifier;
+				}
 			}
 		}
 
@@ -100,6 +101,12 @@ public class CallInput : MonoBehaviour {
 			
 		}
 		currentChar = i+1 > newString.Length ? i : i+1;
+		if(startString.Equals(newString))
+		{
+			Debug.Log ("Here");
+			currentChar = 1;
+			startString = newString [0].ToString ();
+		}
 		return startString;	
 	}
 			
@@ -112,4 +119,5 @@ public class CallInput : MonoBehaviour {
 			callStrings = File.ReadAllLines(callFile);
 		}
 	}
+
 }
