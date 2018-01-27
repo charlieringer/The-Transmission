@@ -55,6 +55,7 @@
      <Compile Include="Assets\Scripts\CallManager.cs" />
      <Compile Include="Assets\Scripts\CommandLine.cs" />
      <Compile Include="Assets\Scripts\KeyboardInput.cs" />
+     <Compile Include="Assets\Scripts\MenuManager.cs" />
      <Compile Include="Assets\Scripts\TextFeeder.cs" />
      <None Include="Assets\Writing\console_main.txt" />
      <None Include="Assets\Policies\MissingCommsPolicy.txt" />
