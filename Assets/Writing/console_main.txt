@@ -2,10 +2,10 @@ Part 1:
 You are connected from: SatNet-CENTRAL
 Incoming Transmissions: 0 
 SatNet Directory:
-N0 - Sn/R/TH
-E4 - Sn/S/T
-S0 - Sn/U/TH
-W3 - Sn/S/T
+N0 - Sn/R/H
+E4 - Sn/S/A
+S0 - Sn/U/T
+W3 - Sn/S/B
 CENTRAL - Sn/C/0
 COMMAND - Sn/C/1 
 
@@ -14,7 +14,6 @@ COMMAND - Sn/C/1
 For automated assistance, please enter >HELP...
 
 HELP: 
-SatNet.Alsys - SatNet Alert System diagnostics
 SatNet.transmit - SatNet communications transmission to specified SatNet directory 
 
 
@@ -22,10 +21,10 @@ Part 2:
 You are connected from: SatNet-CENTRAL
 Incoming Transmissions: 1
 SatNet Directory:
-N0 - Sn/R/TH
-E4 - Sn/S/T
-S0 - Sn/U/TH
-W3 - Sn/S/T
+N0 - Sn/R/H
+E4 - Sn/S/A
+S0 - Sn/U/T
+W3 - Sn/S/B
 CENTRAL - Sn/C/0
 COMMAND - Sn/C/1 
 
@@ -44,19 +43,19 @@ C38008N
 For automated assistance, please enter >HELP...
 
 HELP: 
-SatNet.Alsys - SatNet Alert System diagnostics
 SatNet.transmit - SatNet communications transmission to specified SatNet directory
 SatNet.policy - Empire SatNet relay detection policy
 SatNet.RETALIATE - Initiate Retaliation protocol 
+
 
 Part 3:
 You are connected from: SatNet-CENTRAL
 Incoming Transmissions: 4
 SatNet Directory:
-N0 - Sn/R/TH
-E4 - Sn/S/T
-S0 - Sn/U/TH
-W3 - Sn/S/T
+N0 - Sn/R/H
+E4 - Sn/S/A
+S0 - Sn/U/T
+W3 - Sn/S/B
 CENTRAL - Sn/C/0
 COMMAND - Sn/C/1 
 
@@ -79,33 +78,42 @@ D79SNI
 For automated assistance, please enter >HELP...
 
 HELP: 
-SatNet.Alsys - SatNet Alert System diagnostics
 SatNet.transmit - SatNet communications transmission to specified SatNet directory
 SatNet.inc - Respond to incoming transmission
 SatNet.policy - Empire SatNet relay detection policy
 SatNet.RETALIATE - Initiate Retaliation protocol 
+SatNet.override - Initiate override protocol on target SatNet directory 
+SatNet.pto.key - Call manual override key for target SatNet directory 
 
 
 Part 4:
 You are connected from: SatNet-CENTRAL
 Incoming Transmissions: 0
 SatNet Directory:
-N0 - Sn/R/TH
-E4 - Sn/S/T
-S0 - Sn/U/TH
-W3 - Sn/S/T
+N0 - Sn/R/H
+E4 - Sn/S/A
+S0 - Sn/U/T
+W3 - Sn/S/B
 CENTRAL - Sn/C/0
 COMMAND - Sn/C/1 
 
 SatNet-Alsys ALERT
 Live Munitions Launch Detected 
 Projectiles Detected: 2
-Alert transmission from: SatNet-S0
+Alert transmission from: SatNet-S0-0
 Munitions Speed: 9380 m/s
 Projected Target: N/A
 Time from Target: N/A
-Alert transmission from: SatNet-S0
+Alert transmission from: SatNet-S0-1
 Munitions Speed: 9380 m/s
+Projected Target: N/A
+Time from Target: N/A
+Alert transmission from: SatNet-S0-1
+Munitions Speed: 9380 m/s
+Projected Target: N/A
+Time from Target: N/A
+Alert transmission from SatNet-S0-2
+Munitions Speed: N/A
 Projected Target: N/A
 Time from Target: N/A
 
@@ -113,11 +121,13 @@ Your retaliation protocol key:
 B790NA
 -GLORY TO THE EMPIRE-
 
+Your user policy has been updated by COMMAND:
+SatNet transmission permissions promoted...
+Super transmission access granted...
+
 For automated assistance, please enter >HELP...
 
 HELP: 
-SatNet.Alsys - SatNet Alert System diagnostics
-SatNet.transmit - SatNet communications transmission to specified SatNet directory
 SatNet.sutransmit - Super transmission with specified directories 
 SatNet.policy - Empire SatNet relay detection policy
 SatNet.RETALIATE - Initiate Retaliation protocol 
