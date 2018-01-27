@@ -59,6 +59,7 @@
      <Compile Include="Assets\Scripts\TextFeeder.cs" />
      <None Include="Assets\Writing\console_main.txt" />
      <None Include="Assets\Policies\MissingCommsPolicy.txt" />
+     <None Include="Assets\Writing\conversations_2.txt" />
      <None Include="Assets\Calls\test_call.txt" />
      <None Include="Assets\Policies\RetaliationPolicy.txt" />
      <None Include="Assets\Calls\test_call.txt_old.txt" />
