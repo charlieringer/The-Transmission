@@ -65,7 +65,7 @@ public class Cmd : TextFeeder {
 			feedMe.Exit ();
 			this.feedMe.InstantiatePrint (cmd);
 		} else {
-		
+			currentCommand = "";
 			feedMe.FeedText (invalidCommand);
 		}
 
