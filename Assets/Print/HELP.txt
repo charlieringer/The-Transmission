@@ -1,0 +1,2 @@
+SatNet.Alsys - SatNet Alert System diagnostics
+SatNet.transmit - SatNet communications transmission to specified SatNet directory

@@ -2,14 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TextFeeder {
+public abstract class TextFeeder {
 
-	private FeedMeTextPlease feedMe;
+	protected FeedMeTextPlease feedMe;
 
 	public TextFeeder(FeedMeTextPlease feedMe){
 		this.feedMe = feedMe;
 	}
 
-	// Common methods?!
+	abstract public void ProvideContent();
+
+	abstract public void KeyboardInput(string str);
 
 }
