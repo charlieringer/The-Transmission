@@ -129,7 +129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c8aab5b232e8465fa5cc1d35c2c5c36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  filePath: Calls/test_call.txt
+  filePath: Assets/Calls/test_call.txt
 --- !u!1 &1619173135
 GameObject:
   m_ObjectHideFlags: 0
@@ -318,6 +318,12 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114795121013692600, guid: 8e0ada931f68447aeb1c7a9660a13b28,
+        type: 2}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: ff7d2fe0106b94344b40b3db8f963640,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8e0ada931f68447aeb1c7a9660a13b28, type: 2}
   m_IsPrefabParent: 0

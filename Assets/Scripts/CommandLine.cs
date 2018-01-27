@@ -117,5 +117,4 @@ public class CommandLine : MonoBehaviour, FeedMeTextPlease {
 		this.feeder = null;
 		FeedText ("\n");
 	}
-
 }

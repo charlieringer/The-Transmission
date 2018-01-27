@@ -52,15 +52,23 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\CallInput.cs" />
+     <Compile Include="Assets\Scripts\CallManager.cs" />
      <Compile Include="Assets\Scripts\Cmd.cs" />
      <Compile Include="Assets\Scripts\CommandLine.cs" />
      <Compile Include="Assets\Scripts\KeyboardInput.cs" />
+     <Compile Include="Assets\Scripts\MenuManager.cs" />
      <Compile Include="Assets\Scripts\Print.cs" />
      <Compile Include="Assets\Scripts\TextFeeder.cs" />
+     <None Include="Assets\Writing\console_main.txt" />
      <None Include="Assets\Print\HELP.txt" />
      <None Include="Assets\Print\print.txt" />
+     <None Include="Assets\Policies\MissingCommsPolicy.txt" />
+     <None Include="Assets\Writing\conversations_2.txt" />
      <None Include="Assets\Print\Prologue.txt" />
      <None Include="Assets\Calls\test_call.txt" />
+     <None Include="Assets\Policies\RetaliationPolicy.txt" />
+     <None Include="Assets\Calls\test_call.txt_old.txt" />
+     <None Include="Assets\Writing\conversations_1.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
