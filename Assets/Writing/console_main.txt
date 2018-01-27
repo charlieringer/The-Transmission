@@ -14,7 +14,6 @@ COMMAND - Sn/C/1
 For automated assistance, please enter >HELP...
 
 HELP: 
-SatNet.Home - Return to console welcome panel 
 SatNet.Alsys - SatNet Alert System diagnostics
 SatNet.transmit - SatNet communications transmission to specified SatNet directory 
 
@@ -45,10 +44,9 @@ C38008N
 For automated assistance, please enter >HELP...
 
 HELP: 
-SatNet.Home - Return to console welcome panel 
 SatNet.Alsys - SatNet Alert System diagnostics
 SatNet.transmit - SatNet communications transmission to specified SatNet directory
-SatNet.inc - Respond to incoming transmission
+SatNet.policy - Empire SatNet relay detection policy
 SatNet.RETALIATE - Initiate Retaliation protocol 
 
 Part 3:
@@ -81,10 +79,10 @@ D79SNI
 For automated assistance, please enter >HELP...
 
 HELP: 
-SatNet.Home - Return to console welcome panel 
 SatNet.Alsys - SatNet Alert System diagnostics
 SatNet.transmit - SatNet communications transmission to specified SatNet directory
 SatNet.inc - Respond to incoming transmission
+SatNet.policy - Empire SatNet relay detection policy
 SatNet.RETALIATE - Initiate Retaliation protocol 
 
 
@@ -118,8 +116,8 @@ B790NA
 For automated assistance, please enter >HELP...
 
 HELP: 
-SatNet.Home - Return to console welcome panel 
 SatNet.Alsys - SatNet Alert System diagnostics
 SatNet.transmit - SatNet communications transmission to specified SatNet directory
 SatNet.sutransmit - Super transmission with specified directories 
+SatNet.policy - Empire SatNet relay detection policy
 SatNet.RETALIATE - Initiate Retaliation protocol 
