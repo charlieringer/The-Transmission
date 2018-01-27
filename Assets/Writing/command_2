@@ -1,0 +1,26 @@
+COMMAND: This is COMMAND, receiving from SatNet-CENTRAL. Your communication lines are free. 
+COMMAND: What the fuck is going on CENTRAL? 
+COMMAND: The generals are preparing for a retaliation.
+COMMAND: They are suspicious that you have not enacted the retaliation policy.  
+CENTRAL: They're going to read this
+COMMAND: We can worry about that later. What have you found?
+CENTRAL: I'm not sure. S0 isn't responding, and we don't know where the projectile is coming from or where it's going.
+CENTRAL: It's a mess out here. We need to run takeover protocol on S0's satellites. 
+CENTRAL: Can you approve?
+COMMAND: Roger. 
+COMMAND: Okay, go ahead and connect to S0 now, they should be unlocked and free access. 
+COMMAND: Hurry, their line is not secure until you get in. 
+COMMAND: You can initiate with 'SatNet.pto Sn/U/TH'
+CENTRAL: Roger, trying now. 
+>SatNet.pto Sn/U/TH 
+>SatNet takeover protocol error 
+>takeover key input missing
+CENTRAL: Command, I'm getting an error here. It's asking for a key 
+COMMAND: Hold on. 
+CENTRAL: Okay. 
+COMMAND: Their terminal is not responding to our overwrites.
+COMMAND: You will need to contact the others and ask for the S0 manual override key. 
+COMMAND: We will push it up to your main panels to speed things up
+COMMAND: Get to the bottom of this CENTRAL, hurry.
+COMMAND: For the glory of the empire. 
+CENTRAL: Roger. 
