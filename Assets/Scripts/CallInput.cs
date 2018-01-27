@@ -101,6 +101,15 @@ public class CallInput : MonoBehaviour {
 			
 		}
 		currentChar = i+1 > newString.Length ? i : i+1;
+
+		Debug.Log (startString);
+		Debug.Log (newString);
+		if(startString.Equals(newString))
+		{
+			Debug.Log ("Here");
+			currentChar = 1;
+			startString = newString [0].ToString ();
+		}
 		return startString;	
 	}
 			
@@ -113,4 +122,5 @@ public class CallInput : MonoBehaviour {
 			callStrings = File.ReadAllLines(callFile);
 		}
 	}
+
 }
