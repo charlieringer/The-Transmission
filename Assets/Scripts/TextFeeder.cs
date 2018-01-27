@@ -10,6 +10,16 @@ public class TextFeeder {
 		this.feedMe = feedMe;
 	}
 
+	public void keyboardInput(string str){
+		//str.Length
+		//feedMe.feedText(sourceText);
+
+	}
+
+	public void receiveText(string str)
+	{
+	}
+
 	// Common methods?!
 
 }

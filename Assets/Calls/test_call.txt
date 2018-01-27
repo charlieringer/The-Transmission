@@ -1,8 +1,176 @@
->> CENTRAL: Ok, If you’ve just joined us, we’re talking about who is the best Lord. Lord of the Rings, of the Dance or of the Flies, that’s tonight’s hot topic. Ok, the votes are closed and clearly the rings and the flies have been roundly trounced by the quick feet of blouse wearing tycoon Michael Flatly. Flatly my dear, I don’t riverdance.
-<< NORTH: Oooh scary Irish men. Would you like to recruit me? I like your berets. They're worn by Saddam Hussain, Frank Spencer, the French.
->> CENTRAL: Swallow is a detective who tackles vandalism. Bit of a maverick, not afraid to break the law if he thinks it’s necessary. He’s not a criminal, but he will, perhaps, travel 80mph on the motorway if he, for example, he wants to get somewhere quickly…
-<< NORTH: The temperature inside this apple pie is over one thousand degrees. If I squeeze it, a jet of molten bramley apple will squirt out. Could go your way; could go mine. Either way, one of us is going down.
->> CENTRAL: We managed to rectify it, though, because it now says, by adapting it, "Cook" where it once said "Cock", and it says "Pass" now where it once said "Piss", so it's slightly less rude.
-<< NORTH: Dan!!
-CONNECTION TERMINATED PLEASE EXIT CALL
->> CENTRAL: exit
+E4: This is Sat-E4 receiving your transmission. All systems confirmed live, ALsys insignificant. Glory to the empire. 
+CENTRAL: Evening.
+E4: Hey Central. How's it going?
+CENTRAL: It's not. That's how we like things, right?
+E4: Haha, sure sure. 
+E4: I know you're just doing your rounds but I like having someone checking in on me.
+CENTRAL: You can contact anyone you want you know. 
+E4: Yeah, but it's not quite the same thing. Besides, we can't transmit to you unless something goes wrong... 
+E4: There's only 5 of us as it is. 
+CENTRAL: I'm sure I'm not that nice to talk to anyway. 
+CENTRAL: We're lucky to have 4 colleagues we get along with. 
+E4: And we get paid nicely!
+CENTRAL: That's for drinking up all the propaganda. 
+E4: They can read this you know...
+CENTRAL: I do my job fine, and that's what matters. 
+CENTRAL: I need to check in on the others now. I'll catch up with you later. 
+E4: Alright, let's talk later.
+>SatNet-Transmission close -m"Hourly transmission concluded. No significant reports."
+
+S0: This is Sat-S0 receiving your transmission. All systems confirmed live, ALsys insignificant. Glory to the empire. 
+CENTRAL: Hey man. 
+S0: You're so informal. 
+S0: If command ever read these logs I wonder what they'd think of you.
+CENTRAL: Command likes me enough to keep me here and pay me. Stop exagerrating. 
+S0: Lay off, I'm joking lol. 
+S0: I know you're only nice to me anyway, best friend!
+CENTRAL: Imma close the transmission and carry on with my rounds.
+S0: HAHA HEY WAIT WAIT
+CENTRAL: What 
+S0: Actually, I need to be serious for a minute. My terminal's been freezing a bit today. 
+CENTRAL: So same as usual?
+S0: No man, something is fucky. I'm not sure what the trigger is, we've been trying to diagnose it all day. 
+S0: But the engineers have all gone home so we're SOL until the morning. 
+CENTRAL: I'll note this in my comments. Should be fine, no big deal. 
+S0: Alright bud. Appreciate it.
+CENTRAL: It's my job.
+S0: Yeah yeah.
+S0: Hey, you want to go somewhere tomorrow? 
+CENTRAL: Why?
+S0: I dunno, it's our last shift for the week. 
+CENTRAL: We're quite far away from each other, meeting up is a pain...
+S0: Come on man
+CENTRAL: I'll think about it. 
+S0: You're such an ass. Get going then. 
+CENTRAL: I'm perfectly pleasant, thank you. I'll get back to you in a bit. 
+>SatNet-Transmission close -m"Hourly transmission concluded. S0 has reported issues with his terminal.
+>Forwarding engineer support request to Command"."
+
+N0: This is Sat-N0 receiving your transmission. All systems confirmed live, ALsys insignificant. Glory to the fucking empire. 
+CENTRAL: Hey N0
+N0: hey baby, hows it going
+CENTRAL: Hourly rounds. Same as always.
+N0: always nice to hear from you
+CENTRAL: You're reading. 
+N0: so pedantic 
+N0: so... nothing as usual?
+CENTRAL: Nah. S0's terminal is playing up.
+N0: exciting
+CENTRAL: We want things that way, you know. 
+N0: you dont have to tell me 
+N0: if we can get through all this and get paid, its a pretty sweet deal
+CENTRAL: I wonder...
+N0: whats up? 
+CENTRAL: Do you ever think if any one of us are doing this for more than the money? 
+N0: does it matter?
+N0: or are you so bored you start thinking about meaningless shit 
+CENTRAL: Maybe. 
+N0: get money and get out
+N0: thats as far as ive thought about it
+N0: and ill have you know that i take this shit seriously 
+CENTRAL: Do you?
+N0: you bet your lovely ass that i do
+CENTRAL: ...
+N0: youre the one thats grumpy and disillusioned
+N0: dont put me in the same boat as you 
+N0: im as fine and sexy as it gets 
+CENTRAL: I'm sure Command loves that
+N0: you bet they do hot stuff
+N0: and i know youd love it here too 
+N0: always room for one more
+CENTRAL: I'll be back in an hour then. 
+N0: so charming
+N0: see ya 
+CENTRAL: You know I am
+>SatNet-Transmission close -m"Hourly transmission concluded. Nothing significant"
+
+W3: This is Sat-W3 receiving your transmission. All systems confirmed live and ALsys returning insignificant. 
+W3: Everything is A-OK over here CENTRAL. Glory to the empire and all that.
+W3: How's it going man? Hourly checkup right? 
+W3: It's so boring around here, I like you getting in touch frequently you know? 
+W3: I mean, I know I can chat with the others but you're like, really out there man. 
+W3: How are you anyway?
+CENTRAL: I'm fine. Quiet night.
+W3: Quiet quiet quiet
+CENTRAL: You should try to stick to the standard transmission response, you know.
+CENTRAL: Don't take after N0 so much. 
+W3: Aaaaah. Yeah, you're right.
+W3: Sorry, Im still getting the hang of all this. 
+W3: Hey, am I always the last satellite you check in with? 
+CENTRAL: Dunno. I guess not.
+CENTRAL: I'm pretty arbitrary with the order I contact you guys, I guess?
+W3: I always wondered. Isn't there a protocol for that stuff? 
+CENTRAL: I guess not. 
+W3: Hey hey, no matter right? I was just wondering.
+CENTRAL: You're the one asking me...
+W3: Yeah.
+W3: Hey, what do you do when you're not doing rounds? 
+W3: You're allowed to chat to the others right?
+W3: It isn't like with us, where you have others around you
+W3: You know, physically
+CENTRAL: Hm 
+CENTRAL: I'm allowed to contact the others if I want to.
+CENTRAL: I just need to keep the last ten minutes free every hour. 
+W3: For rounds?
+CENTRAL: Yep. For rounds. 
+W3: Hey, what's Command like?
+CENTRAL: Hmm...
+CENTRAL: The operator is never the same.
+CENTRAL: So you never know who you're dealing with. 
+CENTRAL: I just keep things formal. 
+W3: I see
+W3: You know it must be pretty boring for them too
+W3: Maybe even worse than us, because they're around all the big wigs 
+W3: Like, I would be feeling pretty claustrophobic there
+CENTRAL: Maybe 
+W3: I mean, wouldn't you? 
+W3: If you felt like you were being judged with everything you did 
+W3: I wonder if they have someone looking over their shoulder every time you get in touch
+CENTRAL: Now you have me paranoid 
+W3: You were already
+W3: I mean, not that I think that!
+W3: That's what the others say...
+CENTRAL: It's fine, I know who I am
+W3: Man, you really don't care do you?
+CENTRAL: Depends about what.
+CENTRAL: Hey, what do the others say about me?
+W3: Oh man, don't make me a snitch or something
+CENTRAL: Nevermind then
+W3: They're nice you know, they say nice things.
+CENTRAL: Like I'm paranoid? 
+W3: Well, that one was
+W3: Yeah okay, but they're still nice. 
+CENTRAL: Whatever. I'll catch you later.
+W3: Hey! Seriously, I know I'm fresh but they're really nice
+W3: And the way N0 talks about you, you must be like smoking hot!
+CENTRAL: Aren't you straight?
+W3: Doesn't matter, if you're hot you're hot!
+CENTRAL: What are we even talking about now...
+W3: There's only 5 of us man, we gotta be nice to each other. 
+W3: And everyone is, at least I think so
+W3: And you're friends with half of them already
+W3: So why are you worrying so much about it?
+CENTRAL: I never said I was. I was just curious. 
+W3: Oh man
+W3: Hey I didn't mean to say that I think you're paranoid too
+CENTRAL: It's fine, listen
+CENTRAL: I was just curious. Don't worry about it.
+CENTRAL: You're really talkative. I need to go contact Command. I'll be in touch later. 
+W3: Okay, see you later! 
+>SatNet-Transmission close -m"Hourly transmission concluded. No significant reports."
+
+COMMAND: This is COMMAND, receiving from SatNet-CENTRAL. Your hourly reports have been received.
+COMMAND: We have made note of issues with the terminal at S0. We will dispatch an engineer in the morning. 
+CENTRAL: Thanks command. That's all for now from my end.
+COMMAND: Roger. 
+>SatNet-Alsys ALERT
+>Live Munitions Launch Detected 
+>Alert transmission from: SatNet-S0 
+>Munitions Speed: 9380 m/s 
+>Projected Target: N/A 
+>Time from Target: N/A 
+COMMAND: CENTRAL are you seeing this? 
+CENTRAL: What the fuck, yeah. 
+COMMAND: Contact S0 immediately.
+COMMAND: Find out what's going on, confirm this. 
+CENTRAL: FUUCK. Okay, I'm on it. 

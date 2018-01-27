@@ -53,4 +53,8 @@ public class CommandLine : MonoBehaviour, FeedMeTextPlease {
 	public void feedText(string str){
 		textToWrite = textToWrite + "\n" + str;
 	}
+
+	public void sendText(string str) {
+		feeder.keyboardInput (str);
+	}
 }

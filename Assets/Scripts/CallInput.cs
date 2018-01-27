@@ -37,20 +37,19 @@ public class CallInput : MonoBehaviour {
 
 		if (textModel.Length == 0) {
 			string identifier = initNewLine ();
-			magiTypeOn = identifier.Contains ("CENTRAL");
+			magiTypeOn = (identifier.Contains ("CENTRAL")||identifier=="");
 			textModel += identifier;
 		}
 
 		if (magiTypeOn) {
 			int numbChars = (Input.inputString.Length)*2;
-			int end = numbChars + currentChar;
+			int end = currentChar + numbChars;
 			if (end > callStrings [currentLine].Length)
 				end = callStrings [currentLine].Length;
 
-			for (int i = currentChar; i < end; i++) {
-				textModel += callStrings [currentLine] [i];
-			}
-			currentChar = end;
+			for (;currentChar < end; currentChar++) textModel += callStrings [currentLine] [currentChar];
+			
+			//currentChar;
 
 		} else {
 			if (Time.frameCount % 3 == 0) {
@@ -59,14 +58,14 @@ public class CallInput : MonoBehaviour {
 			}
 		}
 			
-		if (currentChar == callStrings [currentLine].Length) {
+		if (currentChar >= callStrings [currentLine].Length) {
 			textModel += '\n';
 			currentLine++;
 
 			if (currentLine < callStrings.Length) 
 			{
 				string identifier = initNewLine ();
-				magiTypeOn = identifier.Contains ("CENTRAL");
+				magiTypeOn = (identifier.Contains ("CENTRAL")||identifier=="");
 				textModel += identifier;
 			}
 		}
@@ -87,6 +86,11 @@ public class CallInput : MonoBehaviour {
 
 	string initNewLine()
 	{
+		if(callStrings [currentLine][0] == '>')
+		{
+			currentChar = 0;
+			return "";
+		}
 		string newString = callStrings [currentLine];
 		string startString = "";
 		int i = 0;
@@ -100,7 +104,7 @@ public class CallInput : MonoBehaviour {
 	}
 			
 
-	private void loadCallStrings(string callFile)
+	public void loadCallStrings(string callFile)
 	{
 		string path = Directory.GetCurrentDirectory();
 		if (File.Exists(callFile))
