@@ -4,3 +4,5 @@
 << NORTH: The temperature inside this apple pie is over one thousand degrees. If I squeeze it, a jet of molten bramley apple will squirt out. Could go your way; could go mine. Either way, one of us is going down.
 >> CENTRAL: We managed to rectify it, though, because it now says, by adapting it, "Cook" where it once said "Cock", and it says "Pass" now where it once said "Piss", so it's slightly less rude.
 << NORTH: Dan!!
+CONNECTION TERMINATED PLEASE EXIT CALL
+>> CENTRAL: exit

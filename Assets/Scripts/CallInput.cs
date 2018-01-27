@@ -32,12 +32,15 @@ public class CallInput : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		
+
+		if (currentLine >= callStrings.Length) return;
+
 		if (textModel.Length == 0) {
 			string identifier = initNewLine ();
 			magiTypeOn = identifier.Contains ("CENTRAL");
 			textModel += identifier;
 		}
+
 		if (magiTypeOn) {
 			int numbChars = (Input.inputString.Length)*2;
 			int end = numbChars + currentChar;
@@ -59,10 +62,13 @@ public class CallInput : MonoBehaviour {
 		if (currentChar == callStrings [currentLine].Length) {
 			textModel += '\n';
 			currentLine++;
-			string identifier = initNewLine ();
-			magiTypeOn = identifier.Contains ("CENTRAL");
-			textModel += identifier;
-			//currentChar = 0;
+
+			if (currentLine < callStrings.Length) 
+			{
+				string identifier = initNewLine ();
+				magiTypeOn = identifier.Contains ("CENTRAL");
+				textModel += identifier;
+			}
 		}
 
 		console.text = textModel;
@@ -81,15 +87,15 @@ public class CallInput : MonoBehaviour {
 
 	string initNewLine()
 	{
+		string newString = callStrings [currentLine];
 		string startString = "";
-		for (int i = 0; i < callStrings [currentLine].Length; i++) {
-			startString += callStrings [currentLine][i];
-			if(callStrings [currentLine][i] == ':')
-			{
-				currentChar = i+1;
-				break;
-			}
+		int i = 0;
+		for (; i < newString.Length; i++) {
+			startString += newString[i];
+			if(newString[i] == ':')break;
+			
 		}
+		currentChar = i+1 > newString.Length ? i : i+1;
 		return startString;	
 	}
 			

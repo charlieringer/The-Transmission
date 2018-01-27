@@ -129,7 +129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c8aab5b232e8465fa5cc1d35c2c5c36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  filePath: Calls/test_call.txt
+  filePath: Assets/Calls/test_call.txt
 --- !u!1 &1619173135
 GameObject:
   m_ObjectHideFlags: 0
