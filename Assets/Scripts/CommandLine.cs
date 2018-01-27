@@ -18,6 +18,7 @@ public class CommandLine : MonoBehaviour, FeedMeTextPlease {
 	private TextFeeder feeder;
 
 	public Text commandLineText;
+	public SwitchingManager switchManager;
 
 	private string textToWrite;
 	private string consoleText;
@@ -98,8 +99,8 @@ public class CommandLine : MonoBehaviour, FeedMeTextPlease {
 	}
 
 	public void InstantiateCall (string callId){
-	
-		//this.feeder = new CallInput (this, callId);
+		
+		switchManager.switchToCharlie (callId);
 		
 	}
 

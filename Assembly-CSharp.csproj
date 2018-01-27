@@ -58,6 +58,7 @@
      <Compile Include="Assets\Scripts\KeyboardInput.cs" />
      <Compile Include="Assets\Scripts\MenuManager.cs" />
      <Compile Include="Assets\Scripts\Print.cs" />
+     <Compile Include="Assets\Scripts\SwitchingManager.cs" />
      <Compile Include="Assets\Scripts\TextFeeder.cs" />
      <None Include="Assets\Writing\console_main.txt" />
      <None Include="Assets\Print\HELP.txt" />

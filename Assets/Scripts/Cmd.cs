@@ -56,7 +56,7 @@ public class Cmd : TextFeeder {
 			feedMe.Exit ();
 			Debug.Log ("PRINT recognised");
 			this.feedMe.InstantiatePrint (tokens [1]);
-		} else if (cmd.Equals ("call")) {
+		} else if (cmd.Equals ("CALL")) {
 			feedMe.Exit ();
 			Debug.Log ("CALL recognised");
 			this.feedMe.InstantiateCall (tokens [1]);
