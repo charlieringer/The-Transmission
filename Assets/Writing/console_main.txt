@@ -72,7 +72,7 @@ Projected Target: N/A
 Time from Target: N/A
 
 Your retaliation protocol key: 
-D79SNI
+C38008N
 -GLORY TO THE EMPIRE-
 
 For automated assistance, please enter >HELP...
@@ -83,7 +83,6 @@ SatNet.inc - Respond to incoming transmission
 SatNet.policy - Empire SatNet relay detection policy
 SatNet.RETALIATE - Initiate Retaliation protocol 
 SatNet.override - Initiate override protocol on target SatNet directory 
-SatNet.pto.key - Call manual override key for target SatNet directory 
 
 
 Part 4:
@@ -118,7 +117,7 @@ Projected Target: N/A
 Time from Target: N/A
 
 Your retaliation protocol key: 
-B790NA
+C38008N
 -GLORY TO THE EMPIRE-
 
 Your user policy has been updated by COMMAND:
