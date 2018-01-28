@@ -7,7 +7,7 @@ public class GameStateManager {
 	private int gameState = 0;
 	private string genericError = "generic_error.txt";
 
-	private bool original = false;
+	private bool original = true;
 
 	// GAME STATE == 1
 	bool calledS0_GS1 = false;

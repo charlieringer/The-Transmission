@@ -48,7 +48,7 @@ public class CallInput : MonoBehaviour {
 			//currentChar;
 
 		} else {
-			if (Time.frameCount % 3 == 0) {
+			if (Time.frameCount % 1 == 0) {
 				textModel += callStrings [currentLine] [currentChar];
 				currentChar++;
 			}
@@ -116,6 +116,7 @@ public class CallInput : MonoBehaviour {
 
 	public void loadCallStrings(string callFile)
 	{
+		textModel = "";
 		StreamReader reader = new StreamReader("Assets/Calls/"+callFile); 
 		string content = reader.ReadToEnd ();
 		reader.Close();

@@ -1,0 +1,25 @@
+You are connected from: SatNet-CENTRAL
+Incoming Transmissions: 0
+SatNet Directory: N0, E4, S0, W3, CENTRAL, COMMAND
+
+SatNet-Alsys ALERT - Live Munitions Launch Detected 
+Projectiles Detected: 4
+Proj1: Alert transmission from: SatNet-S0, Munitions Speed: 9380 m/s, Projected Target: N/A, Time from Target: N/A
+Proj2: Alert transmission from: SatNet-S0, Munitions Speed: 9380 m/s, Projected Target: N/A, Time from Target: N/A
+Proj3: Alert transmission from: SatNet-S0, Munitions Speed: 9380 m/s, Projected Target: N/A, Time from Target: N/A
+Proj4: Alert transmission from: SatNet-S0, Munitions Speed: 9380 m/s, Projected Target: N/A, Time from Target: N/A
+
+Your retaliation protocol key: 
+B790NA
+-GLORY TO THE EMPIRE-
+
+Your user policy has been updated by COMMAND:
+SatNet transmission permissions promoted...
+Super transmission access granted...
+
+For automated assistance, please enter >HELP...
+
+HELP: 
+SatNet.sutransmit - Super transmission with specified directories 
+SatNet.policy - Empire SatNet relay detection policy
+SatNet.RETALIATE - Initiate Retaliation protocol 

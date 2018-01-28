@@ -24,3 +24,4 @@ COMMAND: We will push it up to your main panels to speed things up
 COMMAND: Get to the bottom of this CENTRAL, hurry.
 COMMAND: For the glory of the empire. 
 CENTRAL: Roger. 
+>SatNet-Transmission close -m"Instructed to contact other SatNet sites for manual overrride key."

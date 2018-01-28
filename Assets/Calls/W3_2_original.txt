@@ -24,3 +24,4 @@ CENTRAL: Let's hope it's nothing.
 W3: Damn, okay. Let's hope so. 
 CENTRAL: Stay safe.
 W3: You too bossman.
+>SatNet-Transmission close -m"Incident investigation. W3 reporting nothing significant."

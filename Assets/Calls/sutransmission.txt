@@ -1,4 +1,169 @@
-W3: I'm saying something
-N0: I'm saying something
-CENTRAL: I'm saying something else 
-COMMAND: I say something about the world of goo.
+>SatNet-sutransmission target: Sn/R/H
+>connected...
+>SatNet-sutransmission target: Sn/S/A
+>connected...
+>SatNet-sutransmission target: Sn/R/H
+>connected...
+>SatNet-sutransmission target: Sn/S/B
+>connected...
+>SatNet-sutransmission target: Sn/C/1
+>connected...
+E4: Hello?
+N0: well this is interesting
+W3: Hi everyone, is there news on the alert?
+COMMAND: CENTRAL, have you managed to override S0?
+CENTRAL: Hi, yes. 
+CENTRAL: We have a problem
+CENTRAL: After connecting to S0's satellites, my Alsys is reporting another 3 launches.
+CENTRAL: Things don't look very good. 
+COMMAND: Roger.
+E4: Oh my god 
+E4: More of them?
+W3: Then this is real...
+COMMAND: We didn't receive any SatNet wide alerts
+COMMAND: Can we confirm it is only detected by S0? 
+N0: nothing on my end
+E4: I have nothing on my Alsys
+W3: Me neither...
+CENTRAL: Then we need to figure out what we're going to do here.
+CENTRAL: Command, is there a way to dispatch an emergency crew to S0? 
+COMMAND: Negative
+COMMAND: Even if we could, it would take approximately four hours
+COMMAND: And they may not be able to resolve anything
+COMMAND: CENTRAL, I think it is time to enact the retaliation protocol
+E4: Man fuck all of this
+E4: I don't want to be the only ones to fucking die
+E4: Do it 
+N0: well hold on
+W3: I want to go back home
+W3: If we're going to die, I want to be with my family
+CENTRAL: Are there no orders from above?
+COMMAND: No. Only concerns and questions of why you have not done anything yet
+N0: haha
+N0: everyone has deferred responsibility to you
+CENTRAL: Great
+E4: Why are you laughing at this?
+E4: Take your shit seriously 
+N0: as a matter of fact, i do
+N0: honey, its your call but something feels awful wrong about this
+CENTRAL: I know
+W3: What?
+W3: What do you mean?
+N0: even with four targets you dont think that this is a bit small?
+N0: for a first strike i certainly wouldnt hold back
+CENTRAL: No kidding
+E4: This is just conjecture
+E4: We don't have time for this 
+N0: we have all the time
+N0: if its real, we will die soon enough
+N0: if it isnt, we will find out in the morning
+W3: We have a duty
+W3: We cant let our people down
+E4: Damn right, if we have to die, we fucking make sure that then they do too
+COMMAND: Central, you need to respond
+COMMAND: Now
+COMMAND: We have already enacted our end of the authentification process 
+COMMAND: You have clearance to retaliate
+N0: you people really bought all that bullshit huh?
+E4: Fuck you
+W3: It's gotta be real now, how couldn't it be
+>SatNet-Alsys ALERT
+>Live Munitions Launch Detected 
+>Alert transmission from: SatNet-S5
+>Munitions Speed: N/A
+>Projected Target: N/A 
+>Time from Target: N/A 
+>SatNet-Alsys ALERT
+>Live Munitions Launch Detected 
+>Alert transmission from: SatNet-S6
+>Munitions Speed: N/A
+>Projected Target: N/A 
+>Time from Target: N/A 
+>SatNet-Alsys ALERT
+>Live Munitions Launch Detected 
+>Alert transmission from: SatNet-S7
+>Munitions Speed: N/A
+>Projected Target: N/A 
+>Time from Target: N/A 
+>SatNet-Alsys ALERT
+>Live Munitions Launch Detected 
+>Alert transmission from: SatNet-S8
+>Munitions Speed: N/A
+>Projected Target: N/A 
+>Time from Target: N/A 
+>SatNet-Alsys ALERT
+>Live Munitions Launch Detected 
+>Alert transmission from: SatNet-S9
+>Munitions Speed: N/A
+>Projected Target: N/A 
+>Time from Target: N/A 
+CENTRAL: Oh fuck
+CENTRAL: COMMAND
+COMMAND: We see it
+W3: More of them?
+W3: see
+E4: CENTRAL FUCKING DO It
+N0: guys hold on
+>SatNet-sutransmission error
+>SatNet-sutransmission target Sn/R/H is unresponsive
+CENTRAL: Oh fuck
+COMMAND: Central, we have lost signal from S0
+COMMAND: We are convinced that this is real
+COMMAND: You must respond
+W3: It's over...
+W3: We can't do anything else
+W3: Come on, I know you're a good guys
+E4: Who put you in charge of this bullshit
+E4: Who cares anymore
+E4: We're all fucked
+CENTRAL: ok
+CENTRAL: Just shut up for a minute
+CENTRAL: If it's up to me then I'm dragging you all through this with me
+E4: Great
+E4: You asshole
+W3: Oh man
+COMMAND: Central, you need to respond now 
+CENTRAL: Just shut up for a minute
+>SatNet.RETALIATE
+
+The following instructions have been provided as the early detection policy for SatNet stations under master directory: Sn/
+In the case of early detection, as the canaries of the Empire, you are obligated by duty to follow this protocol
+Failure to do so may result in the destruction of our livlihoods and world as we know into
+You are bound by duty, and will be sentenced in the Empire military court for failure to fulfill said duties.
+Suggestion, speculation and encouragement of disobedience to other operators will result in immediate sanctions.
+
+In the case of an early detection...
+The following steps have been prescribed in accordance to the chain of command:
+
+1) Initiate retaliation protocol     
+   The command SatNet.RETALIATE must be entered in your emergency control console
+2) Confirm Retaliation Key     
+   The retaliation protocol key must be entered when the operator is prompted to do so
+3) Command authentication  
+   The two factor authentication with joint command must be confirmed
+   This will be automated through a prescribed transmission
+4) Evacuation
+   Once you have received confirmation from COMMAND...
+   You are ordered to remain at your stations
+   The populations whom you are responsible for will receive evacuation notices
+   You are to be the last to leave
+   For the good of the people, you must remain vigiliant for further dangers
+   And early warning operators are bound to record any final data of an imminent attack
+   Only once these conditions have been fulfilled, are you authorised to evacuate
+
+Failure to enact the early warning policy according to these details will warrant immediate sanctions
+Do not forget your duty
+Do not fail your duty
+
+Your retaliation protocol key: 
+C38008N
+-GLORY TO THE EMPIRE-
+
+COMMAND: We have approved your retaliation request
+COMMAND: May the gods save us all
+SatNet.RETALIATE protocol initiated
+Please enter your SatNet retaliation protocol key
+or enter EXIT to exit
+...
+...
+...

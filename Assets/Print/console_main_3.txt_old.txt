@@ -1,0 +1,21 @@
+You are connected from: SatNet-CENTRAL
+Incoming Transmissions: 4
+SatNet Directory: N0, E4, S0, W3, CENTRAL, COMMAND 
+
+SatNet-Alsys ALERT - Live Munitions Launch Detected 
+Projectiles Detected: 2
+Proj1: Alert transmission from: SatNet-S0, Munitions Speed: 9380 m/s, Projected Target: N/A, Time from Target: N/A
+Proj2: Alert transmission from: SatNet-S0, Munitions Speed: 9380 m/s, Projected Target: N/A, Time from Target: N/A
+
+Your retaliation protocol key: 
+D79SNI
+-GLORY TO THE EMPIRE-
+
+COMMANDS: 
+SatNet.transmit - SatNet communications transmission to specified SatNet directory
+SatNet.inc - Respond to incoming transmission
+SatNet.policy - Empire SatNet relay detection policy
+SatNet.RETALIATE - Initiate Retaliation protocol 
+SatNet.override - Initiate override protocol on target SatNet directory 
+SatNet.override.help - How to use the override command
+SatNet.pto.key - Call manual override key for target SatNet directory 

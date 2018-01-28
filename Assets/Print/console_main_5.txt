@@ -1,12 +1,5 @@
 You are connected from: SatNet-CENTRAL
-Incoming Transmissions: 0
-SatNet Directory:
-N0 - Sn/R/H
-E4 - Sn/S/A
-S0 - Sn/U/T
-W3 - Sn/S/B
-CENTRAL - Sn/C/0
-COMMAND - Sn/C/1 
+SatNet Directory: N0, E4, S0, W3, CENTRAL, COMMAND
 
 HELP: 
 SatNet.suRetailate - WHAT DO I DO?

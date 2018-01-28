@@ -366,7 +366,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.147}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.147}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -434,7 +434,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.147}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.147}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -985,6 +985,41 @@ Prefab:
       propertyPath: m_Color.a
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114978108977593198, guid: 8e0ada931f68447aeb1c7a9660a13b28,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114978108977593198, guid: 8e0ada931f68447aeb1c7a9660a13b28,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114978108977593198, guid: 8e0ada931f68447aeb1c7a9660a13b28,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114930959540362264, guid: 8e0ada931f68447aeb1c7a9660a13b28,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114930959540362264, guid: 8e0ada931f68447aeb1c7a9660a13b28,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114930959540362264, guid: 8e0ada931f68447aeb1c7a9660a13b28,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114795121013692600, guid: 8e0ada931f68447aeb1c7a9660a13b28,
+        type: 2}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114144422291459380, guid: 8e0ada931f68447aeb1c7a9660a13b28, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 8e0ada931f68447aeb1c7a9660a13b28, type: 2}
@@ -1138,6 +1173,56 @@ Prefab:
         type: 2}
       propertyPath: m_Color.a
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114978108977593198, guid: 8e0ada931f68447aeb1c7a9660a13b28,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114978108977593198, guid: 8e0ada931f68447aeb1c7a9660a13b28,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114978108977593198, guid: 8e0ada931f68447aeb1c7a9660a13b28,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114930959540362264, guid: 8e0ada931f68447aeb1c7a9660a13b28,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114930959540362264, guid: 8e0ada931f68447aeb1c7a9660a13b28,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114930959540362264, guid: 8e0ada931f68447aeb1c7a9660a13b28,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224346379466949028, guid: 8e0ada931f68447aeb1c7a9660a13b28,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224346379466949028, guid: 8e0ada931f68447aeb1c7a9660a13b28,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224346379466949028, guid: 8e0ada931f68447aeb1c7a9660a13b28,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224346379466949028, guid: 8e0ada931f68447aeb1c7a9660a13b28,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114144422291459380, guid: 8e0ada931f68447aeb1c7a9660a13b28, type: 2}

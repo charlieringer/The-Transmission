@@ -1,3 +1,4 @@
 COMMAND: Have you contacted all the other peers?
 CENTRAL: No, not yet.
 COMMAND: What are you waiting for? Do it.
+>SatNet-Transmission close -m"Command instructed Central to contact all other SatNet sites."
