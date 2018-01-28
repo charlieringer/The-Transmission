@@ -39,7 +39,7 @@ public class CallInput : MonoBehaviour {
 		}
 
 		if (magiTypeOn) {
-			int numbChars = (Input.inputString.Length)*2;
+			int numbChars = (Input.inputString.Length)*3;
 			int end = currentChar + numbChars;
 			if (end > callStrings [currentLine].Length)
 				end = callStrings [currentLine].Length;
