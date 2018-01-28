@@ -1,0 +1,4 @@
+N0: This is Sat-N0 receiving your transmission. All systems confirmed live, ALsys 
+CENTRAL: Alright, stay safe
+N0: say that to yourself
+>SatNet-Transmission close -m"Incident investigation. N0 reporting nothing significant."

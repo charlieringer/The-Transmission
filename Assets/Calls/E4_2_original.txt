@@ -1,0 +1,20 @@
+E4: This is Sat-E4 receiving your transmission. All systems confirmed live, ALsys has nothing significant. Glory to the empire. 
+E4: CENTRAL, what the fuck is going on?
+E4: I don't need to be dealing with this shit man
+CENTRAL: You think I do? Shit. 
+CENTRAL: The detection is coming from S0. I can't connect to them. 
+CENTRAL: Have you got anything from your SatNet Alsys? 
+E4: Fucking nothing man
+E4: What do we do?
+CENTRAL: I don't know. I need to find out what's going on from the rest. 
+E4: I'm going to lose it man, everyone's going to fucking die. 
+CENTRAL: Keep your shit together. 
+E4: Man fuck you, we're not all fucking ice cold like you
+CENTRAL: This is an incident so COMMAND is going to read all this. 
+CENTRAL: I'm just looking out for you, I'm scared too.
+E4: Sorry man
+E4: Look, get in touch with the others. 
+E4: I'm going to see if I can find anything else from the guys deployed here.
+CENTRAL: Ok. Stay safe.
+E4: You too man. 
+>SatNet-Transmission close -m"Incident investigation. E4 reporting nothing significant."

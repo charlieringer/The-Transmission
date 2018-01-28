@@ -8,15 +8,22 @@ public class Cmd : TextFeeder {
 	private string currentCommand = "";
 	private static string invalidCommand = "\nInvalid command.\n";
 
-	public Cmd(FeedMeTextPlease feedMe):base(feedMe){
-	
+	private bool canRetaliate = false;
+	private bool canUseFinalCode = false;
+	private bool canOverride = false;
+	private bool canSutransmit = false;
+
+	public Cmd(FeedMeTextPlease feedMe, bool canRetaliate, bool canUseFinalCode, bool canOverride, bool canSutransmit):base(feedMe){
+		this.canRetaliate = canRetaliate;
+		this.canOverride = canOverride;
+		this.canUseFinalCode = canUseFinalCode;
+		this.canSutransmit = canSutransmit;
 	}
 
 	public override void KeyboardInput(string str){
 
 		for(int i=0; i<str.Length; i++){
 			string tmp = ""+str[i];
-
 
 			if (tmp.Equals ("\n")) {
 				checkCommand (currentCommand);
@@ -44,33 +51,53 @@ public class Cmd : TextFeeder {
 
 	private void checkCommand(string command){
 
-		Debug.Log("Check command: "+command);
+		// Debug.Log ("Check command: " + command);
 
-		string[] tokens = command.Split(' ');
+		string[] tokens = command.Split (' ');
 		string cmd = tokens [0];
 
-		Debug.Log("cmd: "+cmd+" l: "+cmd.Length);
-		Debug.Log (cmd.Equals("HELP"));
+//		Debug.Log ("cmd: " + cmd+" GS: "+GameStateManager.Manager().GetGameState()+
+//			"\n canRet: "+canRetaliate+
+//			"\n canOR: "+canOverride+
+//			"\n canFinal: "+canUseFinalCode+
+//			"\n canSu: "+canSutransmit);
 
-		if (cmd.Equals ("print")) {
+		if (cmd.Equals ("SatNet.Alsys")) {
 			feedMe.Exit ();
-			Debug.Log ("PRINT recognised");
-			this.feedMe.InstantiatePrint (tokens [1]);
-		} else if (cmd.Equals ("CALLx")) {
+			Debug.Log ("SatNet.Alsys recognised");
+			this.feedMe.InstantiatePrint (cmd);
+		} else if (cmd.Equals ("SatNet.transmit")) {
 			feedMe.Exit ();
-			Debug.Log ("CALL recognised");
+			Debug.Log ("SatNet.transmit recognised");
 			this.feedMe.InstantiateCall (tokens [1]);
 		} else if (cmd.Equals ("HELP")) {
 			Debug.Log ("HELP recognised");
 			feedMe.Exit ();
 			this.feedMe.InstantiatePrint (cmd);
+		} else if (canRetaliate && cmd.Equals ("SatNet.RETALIATE")) {
+			Debug.Log ("SatNet.RETALIATE recognised");
+			feedMe.Exit ();
+			this.feedMe.InstantiateRetaliation ();
+		} else if (canUseFinalCode && cmd.Equals ("SatNet.RETALIATE.key")) {
+			Debug.Log ("SatNet.RETALIATE.key recognised");
+			feedMe.Exit ();
+			this.feedMe.BlowUpTheWorld (tokens [1]);
+		} else if (canOverride && cmd.Equals ("SatNet.override.help")) {
+			Debug.Log ("SatNet.override.help recognised");
+			feedMe.Exit ();
+			this.feedMe.OverrideHelp ();
+		} else if (canOverride && cmd.Equals ("SatNet.override")) {
+			Debug.Log ("SatNet.override recognised");
+			feedMe.Exit ();
+			this.feedMe.Override (tokens [1]);
+		} else if (canSutransmit && cmd.Equals ("SatNet.sutransmit")) {
+			Debug.Log ("SatNet.sutransmit recognised");
+			feedMe.Exit ();
+			this.feedMe.Sutransmit();
 		} else {
+			Debug.Log ("nothing recognised");
 			currentCommand = "";
 			feedMe.FeedText (invalidCommand);
 		}
-
-
-
 	}
-
 }

@@ -1,1 +1,16 @@
-Lorem ipsum dolor sit amet
+You are connected from: SatNet-CENTRAL
+Incoming Transmissions: 0 
+SatNet Directory:
+N0 - Sn/R/H
+E4 - Sn/S/A
+S0 - Sn/U/T
+W3 - Sn/S/B
+CENTRAL - Sn/C/0
+COMMAND - Sn/C/1 
+
+-GLORY TO THE EMPIRE-
+
+For automated assistance, please enter >HELP...
+
+HELP: 
+SatNet.transmit - SatNet communications transmission to specified SatNet directory

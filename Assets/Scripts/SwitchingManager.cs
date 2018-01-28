@@ -6,16 +6,21 @@ public class SwitchingManager : MonoBehaviour {
 
 	public GameObject charlieTerminal;
 	public GameObject ivanTerminal;
+	public CallInput charlieCall;
+	public CommandLine ivanCommandLine;
 
 	public void switchToCharlie(string callId){
 		charlieTerminal.SetActive (true);
 		ivanTerminal.SetActive (false);
-		charlieTerminal.GetComponent<CallInput> ().loadCallStrings (callId);
+		charlieCall.loadCallStrings (callId);
 	}
 
 	public void switchToIvan(){
 		charlieTerminal.SetActive (false);
 		ivanTerminal.SetActive (true);
+		string nextPrint = GameStateManager.Manager ().GetNextPrint ();
+		Debug.Log (GameStateManager.Manager ().GetGameState() +" - "+ nextPrint);
+		ivanCommandLine.InstantiatePrint (nextPrint);
 	}
 
 }

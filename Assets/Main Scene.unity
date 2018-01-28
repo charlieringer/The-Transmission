@@ -208,6 +208,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   charlieTerminal: {fileID: 1601152901}
   ivanTerminal: {fileID: 1403502236}
+  charlieCall: {fileID: 1601152900}
+  ivanCommandLine: {fileID: 1403502238}
 --- !u!1 &1245246712
 GameObject:
   m_ObjectHideFlags: 0
@@ -381,6 +383,12 @@ Prefab:
       propertyPath: m_Name
       value: Ivan Terminal
       objectReference: {fileID: 0}
+    - target: {fileID: 114795121013692600, guid: 8e0ada931f68447aeb1c7a9660a13b28,
+        type: 2}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: ff7d2fe0106b94344b40b3db8f963640,
+        type: 3}
     m_RemovedComponents:
     - {fileID: 114144422291459380, guid: 8e0ada931f68447aeb1c7a9660a13b28, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 8e0ada931f68447aeb1c7a9660a13b28, type: 2}
@@ -530,7 +538,8 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114144422291459380, guid: 8e0ada931f68447aeb1c7a9660a13b28, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 8e0ada931f68447aeb1c7a9660a13b28, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1601152899 stripped
@@ -549,7 +558,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c8aab5b232e8465fa5cc1d35c2c5c36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  filePath: Assets/Calls/test_call.txt
+  switchManager: {fileID: 707885687}
 --- !u!1 &1601152901 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1554404125267906, guid: 8e0ada931f68447aeb1c7a9660a13b28,

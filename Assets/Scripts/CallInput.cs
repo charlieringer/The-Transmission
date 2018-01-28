@@ -6,15 +6,12 @@ using System.IO;
 
 public class CallInput : MonoBehaviour {
 
-
-
-	public string filePath;
 	Text console;
 	string[] callStrings;
 	string textModel;
 	bool magiTypeOn = true;
 
-
+	public SwitchingManager switchManager;
 
 	int blinkPeriod = 17;
 	int blinkCount = 0;
@@ -27,7 +24,6 @@ public class CallInput : MonoBehaviour {
 	void Start () {
 		console = this.GetComponent<Text> ();
 		textModel = console.text;
-		loadCallStrings (filePath);
 	}
 
 	// Update is called once per frame
@@ -73,6 +69,13 @@ public class CallInput : MonoBehaviour {
 
 		console.text = textModel;
 
+		if(currentLine >= callStrings.Length){
+			if(GameStateManager.Manager().GetGameState()==0){
+				GameStateManager.Manager ().PrologueEnded ();
+			}
+			switchManager.switchToIvan ();
+		}
+
 		if (isCursorOn) {
 			console.text = console.text + "█";		
 		}
@@ -103,7 +106,7 @@ public class CallInput : MonoBehaviour {
 		currentChar = i+1 > newString.Length ? i : i+1;
 		if(startString.Equals(newString))
 		{
-			Debug.Log ("Here");
+			// Debug.Log ("Here");
 			currentChar = 1;
 			startString = newString [0].ToString ();
 		}
@@ -113,11 +116,16 @@ public class CallInput : MonoBehaviour {
 
 	public void loadCallStrings(string callFile)
 	{
-		string path = Directory.GetCurrentDirectory();
-		if (File.Exists(callFile))
-		{
-			callStrings = File.ReadAllLines(callFile);
-		}
+		StreamReader reader = new StreamReader("Assets/Calls/"+callFile); 
+		string content = reader.ReadToEnd ();
+		reader.Close();
+
+		callStrings = content.Split ('\n');
+
+		blinkCount = 0;
+		currentLine = 0;
+		currentChar = 0;
+		//maybe fixes the bug?! magiTypeOn = false;
 	}
 
 }

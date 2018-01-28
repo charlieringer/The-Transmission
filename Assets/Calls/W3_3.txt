@@ -1,0 +1,3 @@
+W3: This is Sat-W3 receiving your transmission. All systems confirmed live. ALsys returning insignificant. 
+CENTRAL: You broke protocol
+>SatNet-Transmission close

@@ -19,7 +19,7 @@ public class Print :  TextFeeder{
 
 	private void loadContent(string filePath){
 
-		StreamReader reader = new StreamReader("Assets/Print/"+filePath+".txt"); 
+		StreamReader reader = new StreamReader("Assets/Print/"+filePath); 
 		content = reader.ReadToEnd ();
 		reader.Close();
 

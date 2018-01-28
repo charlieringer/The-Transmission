@@ -1,0 +1,4 @@
+W3: I'm saying something
+N0: I'm saying something
+CENTRAL: I'm saying something else 
+COMMAND: I say something about the world of goo.

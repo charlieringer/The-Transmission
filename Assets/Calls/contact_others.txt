@@ -1,0 +1,3 @@
+COMMAND: Have you contacted all the other peers?
+CENTRAL: No, not yet.
+COMMAND: What are you waiting for? Do it.

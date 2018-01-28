@@ -9,6 +9,11 @@ public interface FeedMeTextPlease
 	void FeedText(string str);
 	void InstantiateCall (string callId);
 	void InstantiatePrint (string callId);
+	void InstantiateRetaliation ();
+	void BlowUpTheWorld(string code);
+	void OverrideHelp();
+	void Override(string code);
+	void Sutransmit ();
 	void Exit();
 }
 
@@ -32,8 +37,7 @@ public class CommandLine : MonoBehaviour, FeedMeTextPlease {
 
 	// Use this for initialization
 	void Start () {
-		feeder = new Print (this, "Prologue");
-		feeder.ProvideContent ();
+		switchManager.switchToCharlie(GameStateManager.Manager().GetPrologueCallFile());
 	}
 	
 	// Update is called once per frame
@@ -42,7 +46,7 @@ public class CommandLine : MonoBehaviour, FeedMeTextPlease {
 		// Debug.Log (this.feeder+" text left: "+textToWrite.Length);
 
 		if(this.feeder  == null && textToWrite.Length == 0){
-			feeder = new Cmd (this);
+			InstantiateCmd ();
 		}
 
 		if(this.feeder != null){
@@ -99,9 +103,30 @@ public class CommandLine : MonoBehaviour, FeedMeTextPlease {
 	}
 
 	public void InstantiateCall (string callId){
+		string callFile = GameStateManager.Manager ().GetCallFile (callId);
+		switchManager.switchToCharlie (callFile);
 		
-		switchManager.switchToCharlie (callId);
+	}
+
+	public void InstantiateRetaliation(){
+		// code to initialize retaliation
+	}
+
+	public void BlowUpTheWorld(string code){
 		
+	}
+
+	public void Sutransmit(){
+		switchManager.switchToCharlie (GameStateManager.Manager().GetSutransmitCall());
+	}
+
+	public void OverrideHelp(){
+		this.feeder = new Print (this, GameStateManager.Manager().GetOverrideHelp());
+	}
+
+	public void Override(string code){
+		string nextPrint = GameStateManager.Manager ().Override (code);
+		this.feeder = new Print (this, nextPrint);
 	}
 
 	public void InstantiatePrint (string callId){
@@ -109,9 +134,18 @@ public class CommandLine : MonoBehaviour, FeedMeTextPlease {
 	}
 
 	public void InstantiateCmd(){
-	
-		this.feeder = new Cmd (this);
-	
+
+		if (GameStateManager.Manager ().GetGameState () == 3) {
+			feeder = new Print (this, GameStateManager.Manager().GetNextPrint());	
+		} else {
+			//TODO: gather these bools from the game state
+			bool canRetaliate = GameStateManager.Manager ().CanRetaliate ();
+			bool canUseFinalCode = false;
+			bool canOverride = GameStateManager.Manager().CanOverride();
+			bool canSutransmit = GameStateManager.Manager ().CanSutransmit ();
+			feeder = new Cmd (this, canRetaliate, canUseFinalCode, canOverride, canSutransmit);
+		}
+
 	}
 
 	public void Exit(){

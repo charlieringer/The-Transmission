@@ -1,0 +1,32 @@
+N0: This is Sat-N0 receiving your transmission. All systems confirmed live, ALsys insignificant. 
+CENTRAL: Hey
+N0: why hello again
+CENTRAL: Command was locked out of the override protocol
+N0: ah
+N0: 4632
+CENTRAL: Thanks, that's all i needed
+N0: how are you doing?
+CENTRAL: I'm worried
+N0: yeah i dont blame you 
+N0: i would be pissing myself if i were you
+N0: but i still think it might be nothing
+CENTRAL: How could you be sure?
+N0: i dunno
+N0: call it a hunch
+CENTRAL: Has there been a false alarm before? 
+N0: nope but why couldnt there be one now
+CENTRAL: Fair point
+CENTRAL: You know I prefer it when you're not being annoying 
+N0: you think im annoying?
+N0: thats hurtful
+CENTRAL: Sorry, I didn't mean it that way
+N0: how soft are you 
+N0: you know im fucking around
+N0: besides, if someone like you thinks im annoying it probably means i have personality
+CENTRAL: Hm
+N0: alright handsome
+N0: go get the last key 
+N0: we need to get to the bottom of This
+CENTRAL: Right
+CENTRAL: See you later
+N0: bye bye and good luck!

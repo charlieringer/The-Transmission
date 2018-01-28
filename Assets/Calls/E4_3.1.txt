@@ -1,0 +1,3 @@
+E4: This is Sat-E4 receiving your transmission. All systems confirmed live, ALsys... nothing significant. 
+Central: Mind sending it again?
+E4: 8334

@@ -1,0 +1,4 @@
+E4: This is Sat-E4 receiving your transmission. All systems confirmed live, ALsys has nothing significant. Glory to the empire. 
+CENTRAL: Ok. Stay safe.
+E4: You too man. 
+>SatNet-Transmission close -m"Incident investigation. E4 reporting nothing significant."
