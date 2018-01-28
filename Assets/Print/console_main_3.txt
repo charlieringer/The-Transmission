@@ -7,7 +7,7 @@ Proj1: Alert transmission from: SatNet-S0, Munitions Speed: 9380 m/s, Projected 
 Proj2: Alert transmission from: SatNet-S0, Munitions Speed: 9380 m/s, Projected Target: N/A, Time from Target: N/A
 
 Your retaliation protocol key: 
-D79SNI
+C38008N
 Your PTO Key:
 3204
 -GLORY TO THE EMPIRE-

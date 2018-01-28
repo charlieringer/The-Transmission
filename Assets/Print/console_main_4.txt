@@ -9,7 +9,7 @@ Proj3: Alert transmission from: SatNet-S0, Munitions Speed: 9380 m/s, Projected 
 Proj4: Alert transmission from: SatNet-S0, Munitions Speed: 9380 m/s, Projected Target: N/A, Time from Target: N/A
 
 Your retaliation protocol key: 
-B790NA
+C38008N
 -GLORY TO THE EMPIRE-
 
 Your user policy has been updated by COMMAND:

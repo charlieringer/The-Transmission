@@ -1,6 +1,21 @@
 You are connected from: SatNet-CENTRAL
 SatNet Directory: N0, E4, S0, W3, CENTRAL, COMMAND
 
-HELP: 
+SatNet-Alsys ALERT - Live Munitions Launch Detected 
+Projectiles Detected: 7
+Proj1: Alert transmission from: SatNet-S0, Munitions Speed: 9380 m/s, Projected Target: N/A, Time from Target: N/A
+Proj2: Alert transmission from: SatNet-S0, Munitions Speed: 9380 m/s, Projected Target: N/A, Time from Target: N/A
+Proj3: Alert transmission from: SatNet-S0, Munitions Speed: 9380 m/s, Projected Target: N/A, Time from Target: N/A
+Proj4: Alert transmission from: SatNet-S0, Munitions Speed: 9380 m/s, Projected Target: N/A, Time from Target: N/A
+Proj5: Alert transmission from: SatNet-S0, Munitions Speed: 9380 m/s, Projected Target: N/A, Time from Target: N/A
+Proj6: Alert transmission from: SatNet-S0, Munitions Speed: 9380 m/s, Projected Target: N/A, Time from Target: N/A
+Proj7: Alert transmission from: SatNet-S0, Munitions Speed: 9380 m/s, Projected Target: N/A, Time from Target: N/A
+
+Your retaliation protocol key: 
+C38008N
+-GLORY TO THE EMPIRE-
+
+COMMANDS: 
+SatNet.policy - Empire SatNet relay detection policy
 SatNet.suRetailate - WHAT DO I DO?
 SatNet.suWait - WHAT DO I DO? 

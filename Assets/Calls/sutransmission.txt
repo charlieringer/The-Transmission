@@ -1,13 +1,14 @@
->SatNet-sutransmission target: Sn/R/H
->connected...
->SatNet-sutransmission target: Sn/S/A
->connected...
->SatNet-sutransmission target: Sn/R/H
->connected...
->SatNet-sutransmission target: Sn/S/B
->connected...
->SatNet-sutransmission target: Sn/C/1
->connected...
+! Please patch all targets
+>SatNet-sutransmission target: N0
+connected...
+>SatNet-sutransmission target: E3
+connected...
+>SatNet-sutransmission target: W4
+connected...
+>SatNet-sutransmission target: S0
+connected...
+>SatNet-sutransmission target: COMMAND
+connected...
 E4: Hello?
 N0: well this is interesting
 W3: Hi everyone, is there news on the alert?
@@ -67,36 +68,36 @@ COMMAND: You have clearance to retaliate
 N0: you people really bought all that bullshit huh?
 E4: Fuck you
 W3: It's gotta be real now, how couldn't it be
->SatNet-Alsys ALERT
->Live Munitions Launch Detected 
->Alert transmission from: SatNet-S5
->Munitions Speed: N/A
->Projected Target: N/A 
->Time from Target: N/A 
->SatNet-Alsys ALERT
->Live Munitions Launch Detected 
->Alert transmission from: SatNet-S6
->Munitions Speed: N/A
->Projected Target: N/A 
->Time from Target: N/A 
->SatNet-Alsys ALERT
->Live Munitions Launch Detected 
->Alert transmission from: SatNet-S7
->Munitions Speed: N/A
->Projected Target: N/A 
->Time from Target: N/A 
->SatNet-Alsys ALERT
->Live Munitions Launch Detected 
->Alert transmission from: SatNet-S8
->Munitions Speed: N/A
->Projected Target: N/A 
->Time from Target: N/A 
->SatNet-Alsys ALERT
->Live Munitions Launch Detected 
->Alert transmission from: SatNet-S9
->Munitions Speed: N/A
->Projected Target: N/A 
->Time from Target: N/A 
+! SatNet-Alsys ALERT
+! Live Munitions Launch Detected 
+! Alert transmission from: SatNet-S5
+! Munitions Speed: N/A
+! Projected Target: N/A 
+! Time from Target: N/A 
+! SatNet-Alsys ALERT
+! Live Munitions Launch Detected 
+! Alert transmission from: SatNet-S6
+! Munitions Speed: N/A
+! Projected Target: N/A 
+! Time from Target: N/A 
+! SatNet-Alsys ALERT
+! Live Munitions Launch Detected 
+! Alert transmission from: SatNet-S7
+! Munitions Speed: N/A
+! Projected Target: N/A 
+! Time from Target: N/A 
+! SatNet-Alsys ALERT
+! Live Munitions Launch Detected 
+! Alert transmission from: SatNet-S8
+! Munitions Speed: N/A
+! Projected Target: N/A 
+! Time from Target: N/A 
+! SatNet-Alsys ALERT
+! Live Munitions Launch Detected 
+! Alert transmission from: SatNet-S9
+! Munitions Speed: N/A
+! Projected Target: N/A 
+! Time from Target: N/A 
 CENTRAL: Oh fuck
 CENTRAL: COMMAND
 COMMAND: We see it
@@ -104,8 +105,8 @@ W3: More of them?
 W3: see
 E4: CENTRAL FUCKING DO It
 N0: guys hold on
->SatNet-sutransmission error
->SatNet-sutransmission target Sn/R/H is unresponsive
+! SatNet-sutransmission error
+! SatNet-sutransmission target S0 is unresponsive
 CENTRAL: Oh fuck
 COMMAND: Central, we have lost signal from S0
 COMMAND: We are convinced that this is real
