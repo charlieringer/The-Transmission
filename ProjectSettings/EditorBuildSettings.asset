@@ -11,3 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Main Scene.unity
     guid: b63e6403923ed41528f8aa162a266f7d
+  - enabled: 1
+    path: Assets/Ending_Retaliate.unity
+    guid: 418056e918e93400c81abd9a738e78f5
+  - enabled: 1
+    path: Assets/Ending_StandDown.unity
+    guid: 48fdb34cb70194c54b00cd6422ffb06c
