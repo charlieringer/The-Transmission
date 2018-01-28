@@ -7,7 +7,7 @@ public class GameStateManager {
 	private int gameState = 3; // 0 3 5
 	private string genericError = "generic_error.txt";
 
-	private bool original = false;
+	private bool original = true;
 
 	// GAME STATE == 1
 	bool calledS0_GS1 = false;
@@ -42,7 +42,7 @@ public class GameStateManager {
 	}
 
 	public string Retaliate(string code){
-		if(code.Equals("true")){ //TODO: change true to the actual code
+		if(code.Equals("C38008N")){ //TODO: change true to the actual code
 			gameState = 6;
 			return "suRetaliate.txt";
 		}

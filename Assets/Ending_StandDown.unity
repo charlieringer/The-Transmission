@@ -147,8 +147,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 500, y: 100}
+  m_AnchoredPosition: {x: 0, y: -50}
+  m_SizeDelta: {x: 500, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &50438617
 MonoBehaviour:
@@ -172,7 +172,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: ff7d2fe0106b94344b40b3db8f963640, type: 3}
-    m_FontSize: 40
+    m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -183,7 +183,39 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ENDING_STANDOWN
+  m_Text: 'SatNet emergency communication
+
+
+    COMMAND: We are receiving from the central transmission hub
+
+    ...
+
+    COMMAND: They are reporting a major failure in our outer radar system
+
+    COMMAND: A critical transmission failure affected our systems
+
+    ...
+
+    COMMAND: No hostile projectiles are approaching our red zone
+
+    COMMAND: I repeat, no hostile projectiles are approaching our red zone
+
+    ...
+
+    COMMAND: Interrupt any retaliation procedure and wait for updates from the central
+    transmission hub
+
+    ...
+
+    COMMAND: Today will be remember as one of the brightest day for humanity
+
+    ...
+
+    COMMAND: Soldier, you saved all of us
+
+    ...
+
+    COMMAND: For the glory of the empire!'
 --- !u!222 &50438618
 CanvasRenderer:
   m_ObjectHideFlags: 0

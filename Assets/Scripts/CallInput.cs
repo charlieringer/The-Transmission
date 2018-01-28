@@ -49,7 +49,7 @@ public class CallInput : MonoBehaviour {
 			//currentChar;
 
 		} else {
-			if (Time.frameCount % 3 == 0) {
+			if (Time.frameCount % 2 == 0) {
 				textModel += callStrings [currentLine] [currentChar];
 				currentChar++;
 			}

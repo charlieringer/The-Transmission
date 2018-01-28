@@ -147,8 +147,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 500, y: 100}
+  m_AnchoredPosition: {x: 0, y: -50}
+  m_SizeDelta: {x: 500, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &145252815
 MonoBehaviour:
@@ -172,7 +172,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: ff7d2fe0106b94344b40b3db8f963640, type: 3}
-    m_FontSize: 40
+    m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -183,7 +183,15 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ENDING_RETALIATE
+  m_Text: "SatNet emergency communication\n\nSat\xEA/\u2551 et tr?ns$&&mit Sn/C/1\n...\n...\n\u2588\u2518\u2584\u2500\u256C__!\\\n\xA9\xEA-??\u2551\u2563.....\n---\\\\\\^^^..........\n...\nCOMMAND:
+    Something is wrong, no critical projectiles are identified by our proximity radar
+    system\nCOMMAND; \xE3\u2551\u2588\u2518\u2584\u2500\u256C ??  ...\nCOMMAND: The
+    central transmission hub is reporting a major failure in our outer radar system,
+    no hostile projectiles had ever approached our red zone\nCOMMAND: A critical transmission
+    failure affected our systems\n\xAA\xAA \xBF $%____ ...\n\xEA-?\nCOMMAND: Oh God
+    what have we done...\nCOMMAND: This is the end of everything...\nEv'\xBC\u255D___
+    ...&&!]+++\n...\nCOMM-??\u2551D: \u256C ??  hec/\xA3atomb !  \xBF $%\n...\n...\nSatNet
+    transmission failure\n\n"
 --- !u!222 &145252816
 CanvasRenderer:
   m_ObjectHideFlags: 0
