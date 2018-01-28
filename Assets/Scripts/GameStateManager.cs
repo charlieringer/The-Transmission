@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class GameStateManager {
 
-	private int gameState = 3;
+	private int gameState = 3; // 0 3 5
 	private string genericError = "generic_error.txt";
 
-	private bool original = true;
+	private bool original = false;
 
 	// GAME STATE == 1
 	bool calledS0_GS1 = false;
@@ -44,7 +44,7 @@ public class GameStateManager {
 	public string Retaliate(string code){
 		if(code.Equals("true")){ //TODO: change true to the actual code
 			gameState = 6;
-			return "retaliate.txt";
+			return "suRetaliate.txt";
 		}
 		return "retaliate_fail.txt";
 	}
@@ -81,7 +81,7 @@ public class GameStateManager {
 	}
 
 	public string Policy(){
-		return "policy.txt";
+		return "retaliation_protocol.txt";
 	}
 
 	public string Override(string code){
@@ -96,6 +96,10 @@ public class GameStateManager {
 
 	public string GetOverrideHelp(){
 		return "override_help.txt";
+	}
+
+	public bool IsSuState(){
+		return gameState == 5;
 	}
 
 	public string GetCallFile(string callId){
@@ -156,8 +160,8 @@ public class GameStateManager {
 			if(callId.Equals("suRetaliate")){
 				gameState = 6;
 				return "suRetaliate.txt";
-			}else if(callId.Equals("suWait")){
-				gameState = 6;
+			}else if(callId.Equals("suStandDown")){
+				gameState = 7;
 				return "suWait.txt";
 			}
 		}

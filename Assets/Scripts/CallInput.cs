@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
+using UnityEngine.SceneManagement;
 
 public class CallInput : MonoBehaviour {
 
@@ -48,7 +49,7 @@ public class CallInput : MonoBehaviour {
 			//currentChar;
 
 		} else {
-			if (Time.frameCount % 1 == 0) {
+			if (Time.frameCount % 3 == 0) {
 				textModel += callStrings [currentLine] [currentChar];
 				currentChar++;
 			}
@@ -72,6 +73,14 @@ public class CallInput : MonoBehaviour {
 		if(currentLine >= callStrings.Length){
 			if(GameStateManager.Manager().GetGameState()==0){
 				GameStateManager.Manager ().PrologueEnded ();
+			}
+			if(GameStateManager.Manager().GetGameState()==6){
+				SceneManager.LoadScene ("Ending_Retaliate");
+				return;
+			}
+			if(GameStateManager.Manager().GetGameState()==7){
+				SceneManager.LoadScene ("Ending_StandDown");
+				return;
 			}
 			switchManager.switchToIvan ();
 		}

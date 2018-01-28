@@ -119,7 +119,7 @@ public class CommandLine : MonoBehaviour, FeedMeTextPlease {
 
 	public void Policy(){
 		string policyFile = GameStateManager.Manager ().Policy ();
-		switchManager.switchToCharlie (policyFile);
+		this.feeder = new Print (this, policyFile);
 	}
 
 	public void OverrideHelp(){

@@ -31,4 +31,4 @@ Missiles Launching
 ! All silos contacted
 ! All targets confirmed
 ! Retaliation protocol executed
-> SatNet.suRetaliate -close
+> SatNet.RETALIATE -close

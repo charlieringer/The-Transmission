@@ -62,44 +62,64 @@ public class Cmd : TextFeeder {
 //			"\n canFinal: "+canUseFinalCode+
 //			"\n canSu: "+canSutransmit);
 
-		if (cmd.Equals ("SatNet.Alsys")) {
-			feedMe.Exit ();
-			Debug.Log ("SatNet.Alsys recognised");
-			this.feedMe.InstantiatePrint (cmd);
-		} else if (cmd.Equals ("SatNet.transmit")) {
-			feedMe.Exit ();
-			Debug.Log ("SatNet.transmit recognised");
-			this.feedMe.InstantiateCall (tokens [1]);
-		} else if (cmd.Equals ("HELP")) {
-			Debug.Log ("HELP recognised");
-			feedMe.Exit ();
-			this.feedMe.InstantiatePrint (cmd);
-		} else if (canRetaliate && cmd.Equals ("SatNet.RETALIATE")) {
-			Debug.Log ("SatNet.RETALIATE recognised");
-			feedMe.Exit ();
-			this.feedMe.InstantiateRetaliation (tokens[1]);
-		} else if (canOverride && cmd.Equals ("SatNet.override.help")) {
-			Debug.Log ("SatNet.override.help recognised");
-			feedMe.Exit ();
-			this.feedMe.OverrideHelp ();
-		} else if (canOverride && cmd.Equals ("SatNet.override")) {
-			Debug.Log ("SatNet.override recognised");
-			feedMe.Exit ();
-			this.feedMe.Override (tokens [1]);
-		} else if (canOverride && cmd.Equals ("SatNet.policy")) {
-			Debug.Log ("SatNet.policy recognised");
-			feedMe.Exit ();
-			this.feedMe.Policy ();
-		} else if (canSutransmit && cmd.Equals ("SatNet.sutransmit")) {
-			Debug.Log ("SatNet.sutransmit recognised");
-			feedMe.Exit ();
-			this.feedMe.Sutransmit();
+		Debug.Log (cmd+" GS: "+GameStateManager.Manager ().GetGameState());
+
+		if (!GameStateManager.Manager ().IsSuState ()) {
+			if (cmd.Equals ("SatNet.Alsys")) {
+				feedMe.Exit ();
+				Debug.Log ("SatNet.Alsys recognised");
+				this.feedMe.InstantiatePrint (cmd);
+			} else if (cmd.Equals ("SatNet.transmit")) {
+				feedMe.Exit ();
+				Debug.Log ("SatNet.transmit recognised");
+				this.feedMe.InstantiateCall (tokens [1]);
+			} else if (cmd.Equals ("HELP")) {
+				Debug.Log ("HELP recognised");
+				feedMe.Exit ();
+				this.feedMe.InstantiatePrint (cmd);
+			} else if (canRetaliate && cmd.Equals ("SatNet.RETALIATE")) {
+				Debug.Log ("SatNet.RETALIATE recognised");
+				feedMe.Exit ();
+				this.feedMe.InstantiateRetaliation (tokens [1]);
+			} else if (canOverride && cmd.Equals ("SatNet.override.help")) {
+				Debug.Log ("SatNet.override.help recognised");
+				feedMe.Exit ();
+				this.feedMe.OverrideHelp ();
+			} else if (canOverride && cmd.Equals ("SatNet.override")) {
+				Debug.Log ("SatNet.override recognised");
+				feedMe.Exit ();
+				this.feedMe.Override (tokens [1]);
+			} else if (cmd.Equals ("SatNet.policy")) {
+				Debug.Log ("SatNet.policy recognised");
+				feedMe.Exit ();
+				this.feedMe.Policy ();
+			} else if (canSutransmit && cmd.Equals ("SatNet.sutransmit")) {
+				Debug.Log ("SatNet.sutransmit recognised");
+				feedMe.Exit ();
+				this.feedMe.Sutransmit ();
+			} else {
+				Debug.Log ("nothing recognised");
+				currentCommand = "";
+				feedMe.FeedText (invalidCommand);
+			}
 		} else {
-			// TODO: suWait
-			// TODO: suRetaliate
-			Debug.Log ("nothing recognised");
-			currentCommand = "";
-			feedMe.FeedText (invalidCommand);
+			if (cmd.Equals ("SatNet.suRetaliate")) {
+				feedMe.Exit ();
+				Debug.Log ("SatNet.suRetaliate recognised");
+				this.feedMe.InstantiateCall ("suRetaliate");
+			} else if (cmd.Equals ("SatNet.policy")) {
+				Debug.Log ("SatNet.policy recognised");
+				feedMe.Exit ();
+				this.feedMe.Policy ();
+			} else if (cmd.Equals ("SatNet.suStandDown")) {
+				feedMe.Exit ();
+				Debug.Log ("SatNet.suStandDown recognised");
+				this.feedMe.InstantiateCall ("suStandDown");
+			} else {
+				Debug.Log ("nothing recognised");
+				currentCommand = "";
+				feedMe.FeedText ("You have only to options! Either suRetaliate or suStandDown");
+			}	
 		}
 	}
 }
