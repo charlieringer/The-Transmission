@@ -1,1 +1,34 @@
-END WHEN SURETALIATE
+! Initialising retaliation protocol
+Contacting COMMAND
+...
+...
+COMMAND authorisation granted
+
+Contacting Missile Silo 0
+...
+...
+Target 0 Confirmed
+Missiles Launching
+
+Contacting Missile Silo 1
+...
+...
+Target 1 Confirmed
+Missiles Launching
+
+Contacting Missile Silo 2
+...
+...
+Target 2 Confirmed
+Missiles Launching
+
+Contacting Missile Silo 3
+...
+...
+Target 3 Confirmed
+Missiles Launching
+
+! All silos contacted
+! All targets confirmed
+! Retaliation protocol executed
+> SatNet.suRetaliate -close
