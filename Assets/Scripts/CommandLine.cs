@@ -32,7 +32,7 @@ public class CommandLine : MonoBehaviour, FeedMeTextPlease {
 	int blinkCount = 0;
 	bool isCursorOn = true;
 
-	int textRate = 1;
+	int textRate = 2;
 	int textRateCount = 0;
 
 	// Use this for initialization
@@ -60,8 +60,22 @@ public class CommandLine : MonoBehaviour, FeedMeTextPlease {
 		if(textRateCount >= textRate){
 
 			if(textToWrite.Length > 0){
-				consoleText = consoleText + textToWrite [0];
-				textToWrite = textToWrite.Substring (1);
+//				consoleText = consoleText + textToWrite [0];
+//				textToWrite = textToWrite.Substring (1);
+
+				int findReturn = textToWrite.IndexOf ("\n");
+				if (findReturn >= 0) {
+					consoleText = consoleText + textToWrite.Substring (0, findReturn)+"\n";
+					if (findReturn != textToWrite.Length - 1) {
+						textToWrite = textToWrite.Substring (findReturn+1);
+					} else {
+						textToWrite = "";
+					}
+				} else {
+					consoleText = consoleText + textToWrite;
+					textToWrite = "";
+				}
+
 				textRateCount = 0;
 			}
 		}
