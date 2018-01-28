@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameStateManager {
 
-	private int gameState = 2;
+	private int gameState = 3;
 	private string genericError = "generic_error.txt";
 
 	private bool original = true;

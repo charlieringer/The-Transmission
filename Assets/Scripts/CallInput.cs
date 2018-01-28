@@ -90,12 +90,19 @@ public class CallInput : MonoBehaviour {
 
 	string initNewLine()
 	{
+		string newString = callStrings [currentLine];
+		if(newString == "")
+		{
+			textModel += '\n';
+			currentLine++;
+			return initNewLine ();
+		}
 		if(callStrings [currentLine][0] == '>')
 		{
 			currentChar = 0;
 			return "";
 		}
-		string newString = callStrings [currentLine];
+		
 		string startString = "";
 		int i = 0;
 		for (; i < newString.Length; i++) {
