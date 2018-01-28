@@ -17,5 +17,5 @@ C38008N
 
 COMMANDS: 
 SatNet.policy - Empire SatNet relay detection policy
-SatNet.suRetailate - WHAT DO I DO?
-SatNet.suWait - WHAT DO I DO? 
+SatNet.suRetailate - Initiate Retaliation protocol 
+SatNet.suStandDown - Stand down all SatNet stations 
