@@ -143,3 +143,4 @@ CENTRAL: What the fuck, yeah.
 COMMAND: Contact S0 immediately.
 COMMAND: Find out what's going on, confirm this. 
 CENTRAL: FUUCK. Okay, I'm on it. 
+>SatNet-Transmission close -m"Instructed to contact S0 to confirm SatNet-Alsys Alert."
