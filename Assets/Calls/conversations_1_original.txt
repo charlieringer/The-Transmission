@@ -123,42 +123,6 @@ CENTRAL: The operator is never the same.
 CENTRAL: So you never know who you're dealing with. 
 CENTRAL: I just keep things formal. 
 W3: I see
-W3: You know it must be pretty boring for them too
-W3: Maybe even worse than us, because they're around all the big wigs 
-W3: Like, I would be feeling pretty claustrophobic there
-CENTRAL: Maybe 
-W3: I mean, wouldn't you? 
-W3: If you felt like you were being judged with everything you did 
-W3: I wonder if they have someone looking over their shoulder every time you get in touch
-CENTRAL: Now you have me paranoid 
-W3: You were already
-W3: I mean, not that I think that!
-W3: That's what the others say...
-CENTRAL: It's fine, I know who I am
-W3: Man, you really don't care do you?
-CENTRAL: Depends about what.
-CENTRAL: Hey, what do the others say about me?
-W3: Oh man, don't make me a snitch or something
-CENTRAL: Nevermind then
-W3: They're nice you know, they say nice things.
-CENTRAL: Like I'm paranoid? 
-W3: Well, that one was
-W3: Yeah okay, but they're still nice. 
-CENTRAL: Whatever. I'll catch you later.
-W3: Hey! Seriously, I know I'm fresh but they're really nice
-W3: And the way N0 talks about you, you must be like smoking hot!
-CENTRAL: Aren't you straight?
-W3: Doesn't matter, if you're hot you're hot!
-CENTRAL: What are we even talking about now...
-W3: There's only 5 of us man, we gotta be nice to each other. 
-W3: And everyone is, at least I think so
-W3: And you're friends with half of them already
-W3: So why are you worrying so much about it?
-CENTRAL: I never said I was. I was just curious. 
-W3: Oh man
-W3: Hey I didn't mean to say that I think you're paranoid too
-CENTRAL: It's fine, listen
-CENTRAL: I was just curious. Don't worry about it.
 CENTRAL: You're really talkative. I need to go contact Command. I'll be in touch later. 
 W3: Okay, see you later! 
 >SatNet-Transmission close -m"Hourly transmission concluded. No significant reports."
