@@ -51,18 +51,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\MapManager.cs" />
      <Compile Include="Assets\Scripts\CallInput.cs" />
      <Compile Include="Assets\Scripts\CallManager.cs" />
      <Compile Include="Assets\Scripts\Cmd.cs" />
      <Compile Include="Assets\Scripts\CommandLine.cs" />
      <Compile Include="Assets\Scripts\GameStateManager.cs" />
      <Compile Include="Assets\Scripts\KeyboardInput.cs" />
+     <Compile Include="Assets\Scripts\MapManager.cs" />
      <Compile Include="Assets\Scripts\MenuManager.cs" />
      <Compile Include="Assets\Scripts\Print.cs" />
      <Compile Include="Assets\Scripts\SwitchingManager.cs" />
      <Compile Include="Assets\Scripts\TextFeeder.cs" />
-     <Compile Include="Assets\WaveManager.cs" />
+     <Compile Include="Assets\Scripts\WaveManager.cs" />
      <None Include="Assets\Print\console_main_3.txt" />
      <None Include="Assets\Calls\conversations_1.txt" />
      <None Include="Assets\Calls\W3_3.1_original.txt" />

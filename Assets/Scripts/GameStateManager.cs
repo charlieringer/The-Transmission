@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameStateManager {
 
-	private int gameState = 0;
+	private int gameState = 2;
 	private string genericError = "generic_error.txt";
 
 	private bool original = true;
@@ -82,7 +82,7 @@ public class GameStateManager {
 
 	public string Override(string code){
 
-		if (code.Equals ("true")) { //TODO: change true to the actual code
+		if (code.Equals ("4632833497113204")) { //TODO: change true to the actual code
 			gameState = 3;
 			return "S0_override_success.txt";
 		}
