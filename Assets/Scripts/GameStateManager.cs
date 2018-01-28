@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class GameStateManager {
 
-	private int gameState = 2;
+	private int gameState = 0;
 	private string genericError = "generic_error.txt";
+
+	private bool original = false;
 
 	// GAME STATE == 1
 	bool calledS0_GS1 = false;
@@ -39,8 +41,16 @@ public class GameStateManager {
 		return gameState >= 1;
 	}
 
+	public string Retaliate(string code){
+		if(code.Equals("true")){ //TODO: change true to the actual code
+			gameState = 6;
+			return "retaliate.txt";
+		}
+		return "retaliate_fail.txt";
+	}
+
 	public string GetPrologueCallFile(){
-		return "conversations_1.txt";
+		return "conversations_1"+(original?"_original":"")+".txt";
 	}
 
 	public void PrologueEnded(){
@@ -72,7 +82,7 @@ public class GameStateManager {
 
 	public string Override(string code){
 
-		if (code.Equals ("true")) {
+		if (code.Equals ("true")) { //TODO: change true to the actual code
 			gameState = 3;
 			return "S0_override_success.txt";
 		}
@@ -88,22 +98,22 @@ public class GameStateManager {
 		if(gameState == 1){
 			if (callId.Equals ("N0")) {
 				calledN0_GS1 = true;
-				return "N0_2.txt";
+				return "N0_2"+(original?"_original":"")+".txt";
 			} else if (callId.Equals ("E4")) {
 				calledE4_GS1 = true;
-				return "E4_2.txt";
+				return "E4_2"+(original?"_original":"")+".txt";
 			} else if (callId.Equals ("S0")) {
 				calledS0_GS1 = true;
-				return "S0_2.txt";
+				return "S0_2"+(original?"_original":"")+".txt";
 			} else if (callId.Equals ("W3")) {
 				calledW3_GS1 = true;
-				return "W3_2.txt";
+				return "W3_2"+(original?"_original":"")+".txt";
 			} else if (callId.Equals ("COMMAND")) {
 				if(CanCallCommand ()){
 					calledCOMMAND_GS1 = true;
 					gameState = 2;
 					Debug.Log ("Updating gameState: "+gameState);
-					return "command_2.txt";
+					return "command_2"+(original?"_original":"")+".txt";
 				}else{
 					return "contact_others.txt";
 				}
@@ -114,29 +124,37 @@ public class GameStateManager {
 		}if(gameState==2){
 			if (callId.Equals ("N0")) {
 				if (calledN0_GS2) {
-					return "N0_3.1.txt";
+					return "N0_3.1"+(original?"_original":"")+".txt";
 				} else {
 					calledN0_GS2 = true;
-					return "N0_3.txt";
+					return "N0_3"+(original?"_original":"")+".txt";
 				}
 			} else if (callId.Equals ("E4")) {
 				if (calledE4_GS2) {
-					return "E4_3.1.txt";
+					return "E4_3.1"+(original?"_original":"")+".txt";
 				} else {
 					calledE4_GS2 = true;
-					return "E4_3.txt";
+					return "E4_3"+(original?"_original":"")+".txt";
 				}
 			} else if (callId.Equals ("S0")) {
-				return "S0_2.txt";
+				return "S0_2"+(original?"_original":"")+".txt";
 			} else if (callId.Equals ("W3")) {
 				if (calledW3_GS2) {
-					return "W3_3.1.txt";
+					return "W3_3.1"+(original?"_original":"")+".txt";
 				} else {
 					calledW3_GS2 = true;
-					return "W3_3.txt";
+					return "W3_3"+(original?"_original":"")+".txt";
 				}
 			} else {
 				return genericError;
+			}
+		}if(gameState == 5){
+			if(callId.Equals("suRetaliate")){
+				gameState = 6;
+				return "suRetaliate.txt";
+			}else if(callId.Equals("suWait")){
+				gameState = 6;
+				return "suWait.txt";
 			}
 		}
 
@@ -153,6 +171,10 @@ public class GameStateManager {
 			return "console_main_4.txt";
 		} else if(gameState == 4){
 			return "console_main_4.txt";
+		} else if(gameState == 5){
+			return "console_main_5.txt";
+		} else if(gameState == 6){
+			return "credits.txt";
 		}
 		return genericError;
 	

@@ -9,8 +9,7 @@ public interface FeedMeTextPlease
 	void FeedText(string str);
 	void InstantiateCall (string callId);
 	void InstantiatePrint (string callId);
-	void InstantiateRetaliation ();
-	void BlowUpTheWorld(string code);
+	void InstantiateRetaliation (string code);
 	void OverrideHelp();
 	void Override(string code);
 	void Sutransmit ();
@@ -108,12 +107,9 @@ public class CommandLine : MonoBehaviour, FeedMeTextPlease {
 		
 	}
 
-	public void InstantiateRetaliation(){
-		// code to initialize retaliation
-	}
-
-	public void BlowUpTheWorld(string code){
-		
+	public void InstantiateRetaliation(string code){
+		string retaliationResult = GameStateManager.Manager ().Retaliate (code);
+		switchManager.switchToCharlie (retaliationResult);
 	}
 
 	public void Sutransmit(){

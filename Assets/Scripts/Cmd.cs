@@ -77,11 +77,7 @@ public class Cmd : TextFeeder {
 		} else if (canRetaliate && cmd.Equals ("SatNet.RETALIATE")) {
 			Debug.Log ("SatNet.RETALIATE recognised");
 			feedMe.Exit ();
-			this.feedMe.InstantiateRetaliation ();
-		} else if (canUseFinalCode && cmd.Equals ("SatNet.RETALIATE.key")) {
-			Debug.Log ("SatNet.RETALIATE.key recognised");
-			feedMe.Exit ();
-			this.feedMe.BlowUpTheWorld (tokens [1]);
+			this.feedMe.InstantiateRetaliation (tokens[1]);
 		} else if (canOverride && cmd.Equals ("SatNet.override.help")) {
 			Debug.Log ("SatNet.override.help recognised");
 			feedMe.Exit ();
@@ -95,6 +91,8 @@ public class Cmd : TextFeeder {
 			feedMe.Exit ();
 			this.feedMe.Sutransmit();
 		} else {
+			// TODO: suWait
+			// TODO: suRetaliate
 			Debug.Log ("nothing recognised");
 			currentCommand = "";
 			feedMe.FeedText (invalidCommand);

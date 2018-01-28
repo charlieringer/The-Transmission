@@ -30,12 +30,23 @@ public class WaveManager : MonoBehaviour {
 	void Update () {
 
 		if(count == period){
+			string newContent = "";
 
 			if(waveNum == 0){
+				newContent += wave0;
+				newContent += "\n"+wave3;
 			}else if(waveNum == 1){
+				newContent += wave1;
+				newContent += "\n"+wave2;
 			}else if(waveNum == 2){
+				newContent += wave2;
+				newContent += "\n"+wave1;
 			}else if(waveNum == 3){
+				newContent += wave3;
+				newContent += "\n"+wave0;
 			}
+
+			waveContent.text = newContent;
 
 			waveNum = (waveNum + 1) % 4;
 			count = 0;

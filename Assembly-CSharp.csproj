@@ -68,6 +68,7 @@
      <None Include="Assets\Calls\W3_3.1_original.txt" />
      <None Include="Assets\Writing\console_main.txt" />
      <None Include="Assets\Print\HELP.txt" />
+     <None Include="Assets\Print\console_main_5.txt" />
      <None Include="Assets\Print\S0_override_success.txt" />
      <None Include="Assets\Calls\W3_3.1.txt" />
      <None Include="Assets\Calls\E4_2_original.txt" />
@@ -76,6 +77,7 @@
      <None Include="Assets\Map\Wave1.txt" />
      <None Include="Assets\Calls\E4_3_original.txt" />
      <None Include="Assets\Calls\W3_2_original.txt" />
+     <None Include="Assets\Calls\retaliate.txt" />
      <None Include="Assets\Calls\W3_2.txt" />
      <None Include="Assets\Print\print.txt" />
      <None Include="Assets\Calls\command_2.txt" />
@@ -85,6 +87,7 @@
      <None Include="Assets\Policies\MissingCommsPolicy.txt" />
      <None Include="Assets\Map\Wave3.txt" />
      <None Include="Assets\Print\console_main_2.txt" />
+     <None Include="Assets\Calls\retaliate_fail.txt" />
      <None Include="Assets\Calls\N0_3_original.txt" />
      <None Include="Assets\Map\Wave4.txt" />
      <None Include="Assets\Calls\E4_2.txt" />
@@ -100,6 +103,7 @@
      <None Include="Assets\Calls\W3_3_original.txt" />
      <None Include="Assets\Map\Map2_2.txt" />
      <None Include="Assets\Calls\contact_others.txt" />
+     <None Include="Assets\Calls\suRetaliate.txt" />
      <None Include="Assets\Calls\E4_3.1.txt" />
      <None Include="Assets\Calls\S0_2_original.txt" />
      <None Include="Assets\Calls\N0_3.1_original.txt" />
@@ -107,11 +111,14 @@
      <None Include="Assets\Calls\command_2_original.txt" />
      <None Include="Assets\Policies\RetaliationPolicy.txt" />
      <None Include="Assets\Calls\S0_2.txt" />
+     <None Include="Assets\Print\credits.txt" />
      <None Include="Assets\Calls\W3_3.txt" />
      <None Include="Assets\Map\Map2_1.txt" />
      <None Include="Assets\Print\override_help.txt" />
      <None Include="Assets\Calls\test_call.txt_old.txt" />
+     <None Include="Assets\Calls\suWait.txt" />
      <None Include="Assets\Writing\conversations_1.txt" />
+     <None Include="Assets\Writing\retaliation_protocol.txt" />
      <None Include="Assets\Calls\N0_3.1.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
