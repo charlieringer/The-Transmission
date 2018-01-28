@@ -80,6 +80,10 @@ public class GameStateManager {
 		return "sutransmission.txt";
 	}
 
+	public string Policy(){
+		return "policy.txt";
+	}
+
 	public string Override(string code){
 
 		if (code.Equals ("4632833497113204")) { //TODO: change true to the actual code

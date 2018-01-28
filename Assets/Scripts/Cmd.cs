@@ -86,6 +86,10 @@ public class Cmd : TextFeeder {
 			Debug.Log ("SatNet.override recognised");
 			feedMe.Exit ();
 			this.feedMe.Override (tokens [1]);
+		} else if (canOverride && cmd.Equals ("SatNet.policy")) {
+			Debug.Log ("SatNet.policy recognised");
+			feedMe.Exit ();
+			this.feedMe.Policy ();
 		} else if (canSutransmit && cmd.Equals ("SatNet.sutransmit")) {
 			Debug.Log ("SatNet.sutransmit recognised");
 			feedMe.Exit ();

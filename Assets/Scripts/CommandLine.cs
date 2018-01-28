@@ -13,6 +13,7 @@ public interface FeedMeTextPlease
 	void OverrideHelp();
 	void Override(string code);
 	void Sutransmit ();
+	void Policy ();
 	void Exit();
 }
 
@@ -114,6 +115,11 @@ public class CommandLine : MonoBehaviour, FeedMeTextPlease {
 
 	public void Sutransmit(){
 		switchManager.switchToCharlie (GameStateManager.Manager().GetSutransmitCall());
+	}
+
+	public void Policy(){
+		string policyFile = GameStateManager.Manager ().Policy ();
+		switchManager.switchToCharlie (policyFile);
 	}
 
 	public void OverrideHelp(){
