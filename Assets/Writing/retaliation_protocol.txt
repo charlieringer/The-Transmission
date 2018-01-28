@@ -1,0 +1,10 @@
+This are the instructions for the retaliation protocol, codename N_3756A for critical live munition detection
+
+The following steps has to be followed in accordance to the chain of command
+
+1) Initiate command         - The command SatNet.RETALIATE has to be entered in the emergency control console
+2) Insert Key               - The retaliation protocol key has to be entered in the emergency control console
+3) Command authentication   - The two factor authentication from command has to be logged into the emergency control console
+4) Evacuation               - Once received confirmation from command EVACUATE immediately
+
+Glory to the empire
